@@ -1,0 +1,1411 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-athonly	doc/html/switchs.html	/^  <dt><strong>* <kbd>--athonly<\/kbd><a name="-athonly">&nbsp;&nbsp;&nbsp;&nbsp;ATH $/;"	a
+-help	doc/html/switchs.html	/^    <strong>* <kbd>--help<\/kbd><a name="-help">&nbsp;&nbsp;&nbsp;&nbsp;help<\/a><\/strong> $/;"	a
+-highpass	doc/html/switchs.html	/^    <strong>* <kbd>--highpass<\/kbd><a name="-highpass">&nbsp;&nbsp;&nbsp;&nbsp;highpass $/;"	a
+-highpass-width	doc/html/switchs.html	/^    <strong>* <kbd>--highpass-width<\/kbd><a name="-highpass-width">&nbsp;&nbsp;&nbsp;&nbsp;width $/;"	a
+-lowpass	doc/html/switchs.html	/^    <strong>* <kbd>--lowpass<\/kbd><a name="-lowpass">&nbsp;&nbsp;&nbsp;&nbsp;lowpass $/;"	a
+-lowpass-width	doc/html/switchs.html	/^    <strong>* <kbd>--lowpass-width<\/kbd><a name="-lowpass-width">&nbsp;&nbsp;&nbsp;&nbsp;width $/;"	a
+-mp3input	doc/html/switchs.html	/^  <dt><strong>* <kbd>--mp3input<\/kbd><a name="-mp3input">&nbsp;&nbsp;&nbsp;&nbsp;mp3 $/;"	a
+-noath	doc/html/switchs.html	/^  <dt><strong>* <kbd>--noath<\/kbd><a name="-noath">&nbsp;&nbsp;&nbsp;&nbsp;no $/;"	a
+-nohist	doc/html/switchs.html	/^  <dt><strong>* <kbd>--nohist<\/kbd><a name="-nohist">&nbsp;&nbsp;&nbsp;&nbsp;disable $/;"	a
+-nores	doc/html/switchs.html	/^  <dt><strong>* <kbd>--nores<\/kbd><a name="-nores">&nbsp;&nbsp;&nbsp;&nbsp;disable $/;"	a
+-noshort	doc/html/switchs.html	/^  <dt><strong>* <kbd>--noshort<\/kbd><a name="-noshort">&nbsp;&nbsp;&nbsp;&nbsp;disable $/;"	a
+-preset	doc/html/switchs.html	/^    <strong>* <kbd>--preset phone\/voice\/fm\/tape\/hifi\/cd\/studio<\/kbd> <a name="-preset">&nbsp;&nbsp;&nbsp;&nbsp;use $/;"	a
+-resample	doc/html/switchs.html	/^  <dt><strong>* <kbd>--resample<\/kbd><a name="-resample">&nbsp;&nbsp;&nbsp;&nbsp;output $/;"	a
+-voice	doc/html/switchs.html	/^  <dt><strong>* <kbd>--voice<\/kbd><a name="-voice">&nbsp;&nbsp;&nbsp;&nbsp;voice $/;"	a
+352	doc/html/node6.html	/^<A NAME="352">&#160;<\/A><I>audio compression<\/I>, <A NAME="354">&#160;<\/A><I>audio $/;"	a
+356	doc/html/node6.html	/^encoding<\/I>, and <A NAME="356">&#160;<\/A><I>audio decoding<\/I>. This section $/;"	a
+358	doc/html/node6.html	/^<P> Audio compression really consists of two parts. The first part, called <A NAME="358">&#160;<\/A><I>encoding<\/I>, $/;"	a
+360	doc/html/node6.html	/^  highly compressed form called <A NAME="360">&#160;<\/A><I>bitstream<\/I>. To play $/;"	a
+362	doc/html/node6.html	/^  the bitstream on your soundcard, you need the second part, called <A NAME="362">&#160;<\/A><I>decoding<\/I>. $/;"	a
+365	doc/html/node6.html	/^  term <A NAME="365">&#160;<\/A><I>bitrate<\/I> when speaking of the strength of $/;"	a
+AACS3	psymodel.c	273;"	d	file:
+ARCH	Makefile	/^ARCH = $(shell uname -m)$/;"	m
+ATH_l	quantize-pvt.c	/^static FLOAT8 ATH_l[SBPSY_l];$/;"	v	file:
+ATH_mdct_long	quantize-pvt.c	/^FLOAT8 ATH_mdct_long[576];$/;"	v
+ATH_mdct_short	quantize-pvt.c	/^FLOAT8 ATH_mdct_short[192];$/;"	v
+ATH_s	quantize-pvt.c	/^static FLOAT8 ATH_s[SBPSY_l];$/;"	v	file:
+ATHformula	quantize-pvt.c	/^FLOAT8 ATHformula(lame_global_flags *gfp,FLOAT8 f)$/;"	f
+ATHonly	lame.h	/^  int ATHonly;                    \/* only use ATH *\/$/;"	m	struct:__anon8
+AUDIOBUFSIZE	mpglib/mpg123.h	35;"	d
+AUSHIFT	mpglib/mpg123.h	52;"	d
+AddVbrFrame	VbrTag.c	/^void AddVbrFrame(int nStreamPos)$/;"	f
+BECLOSESTREAM	Dll/BladeMP3EncDLL.h	/^typedef BE_ERR	(*BECLOSESTREAM)	(HBE_STREAM);$/;"	t
+BEDEINITSTREAM	Dll/BladeMP3EncDLL.h	/^typedef BE_ERR	(*BEDEINITSTREAM)	(HBE_STREAM, PBYTE, PDWORD);$/;"	t
+BEENCODECHUNK	Dll/BladeMP3EncDLL.h	/^typedef BE_ERR	(*BEENCODECHUNK)	(HBE_STREAM, DWORD, PSHORT, PBYTE, PDWORD);$/;"	t
+BEINITSTREAM	Dll/BladeMP3EncDLL.h	/^typedef BE_ERR	(*BEINITSTREAM)		(PBE_CONFIG, PDWORD, PDWORD, PHBE_STREAM);$/;"	t
+BEVERSION	Dll/BladeMP3EncDLL.h	/^typedef VOID	(*BEVERSION)		(PBE_VERSION);$/;"	t
+BE_CONFIG	Dll/BladeMP3EncDLL.h	/^} BE_CONFIG, *PBE_CONFIG;$/;"	t	typeref:struct:__anon11
+BE_CONFIG_LAME	Dll/BladeMP3EncDLL.h	30;"	d
+BE_CONFIG_MP3	Dll/BladeMP3EncDLL.h	29;"	d
+BE_ERR	Dll/BladeMP3EncDLL.h	/^typedef		unsigned long			BE_ERR;$/;"	t
+BE_ERR_BUFFER_TOO_SMALL	Dll/BladeMP3EncDLL.h	45;"	d
+BE_ERR_INVALID_FORMAT	Dll/BladeMP3EncDLL.h	41;"	d
+BE_ERR_INVALID_FORMAT_PARAMETERS	Dll/BladeMP3EncDLL.h	42;"	d
+BE_ERR_INVALID_HANDLE	Dll/BladeMP3EncDLL.h	44;"	d
+BE_ERR_NO_MORE_HANDLES	Dll/BladeMP3EncDLL.h	43;"	d
+BE_ERR_SUCCESSFUL	Dll/BladeMP3EncDLL.h	40;"	d
+BE_MAX_HOMEPAGE	Dll/BladeMP3EncDLL.h	49;"	d
+BE_MP3_MODE_DUALCHANNEL	Dll/BladeMP3EncDLL.h	55;"	d
+BE_MP3_MODE_JSTEREO	Dll/BladeMP3EncDLL.h	54;"	d
+BE_MP3_MODE_MONO	Dll/BladeMP3EncDLL.h	56;"	d
+BE_MP3_MODE_STEREO	Dll/BladeMP3EncDLL.h	53;"	d
+BE_VERSION	Dll/BladeMP3EncDLL.h	/^} BE_VERSION, *PBE_VERSION;			$/;"	t	typeref:struct:__anon16
+BF_BitstreamElement	formatBitstream.h	/^} BF_BitstreamElement;$/;"	t	typeref:struct:__anon1
+BF_BitstreamFrame	formatBitstream.c	/^BF_BitstreamFrame( BF_FrameData *frameInfo, BF_FrameResults *results )$/;"	f
+BF_BitstreamPart	formatBitstream.h	/^} BF_BitstreamPart;$/;"	t	typeref:struct:__anon2
+BF_FlushBitstream	formatBitstream.c	/^BF_FlushBitstream( BF_FrameData *frameInfo, BF_FrameResults *results )$/;"	f
+BF_FrameData	formatBitstream.h	/^typedef struct BF_FrameData$/;"	s
+BF_FrameData	formatBitstream.h	/^} BF_FrameData;$/;"	t	typeref:struct:BF_FrameData
+BF_FrameResults	formatBitstream.h	/^typedef struct BF_FrameResults$/;"	s
+BF_FrameResults	formatBitstream.h	/^} BF_FrameResults;$/;"	t	typeref:struct:BF_FrameResults
+BF_LoadHolderFromBitstreamPart	formatBitstream.c	/^BF_PartHolder *BF_LoadHolderFromBitstreamPart( BF_PartHolder *theHolder, BF_BitstreamPart *thePart )$/;"	f
+BF_NewHolderFromBitstreamPart	formatBitstream.c	/^BF_PartHolder *BF_NewHolderFromBitstreamPart( BF_BitstreamPart *thePart )$/;"	f
+BF_PartHolder	formatBitstream.h	/^typedef struct BF_PartHolder$/;"	s
+BF_PartHolder	formatBitstream.h	/^} BF_PartHolder;$/;"	t	typeref:struct:BF_PartHolder
+BF_PartLength	formatBitstream.c	/^BF_PartLength( BF_BitstreamPart *part )$/;"	f
+BF_addElement	formatBitstream.c	/^BF_PartHolder *BF_addElement( BF_PartHolder *thePH, BF_BitstreamElement *theElement )$/;"	f
+BF_addEntry	formatBitstream.c	/^BF_PartHolder *BF_addEntry( BF_PartHolder *thePH, u_int value, u_int length )$/;"	f
+BF_freePartHolder	formatBitstream.c	/^BF_PartHolder *BF_freePartHolder( BF_PartHolder *thePH )$/;"	f
+BF_newPartHolder	formatBitstream.c	/^BF_PartHolder *BF_newPartHolder( int max_elements )$/;"	f
+BF_resizePartHolder	formatBitstream.c	/^BF_PartHolder *BF_resizePartHolder( BF_PartHolder *oldPH, int max_elements )$/;"	f
+BINSEARCH_DOWN	quantize-pvt.c	/^    BINSEARCH_DOWN$/;"	e	enum:__anon17	file:
+BINSEARCH_NONE	quantize-pvt.c	/^    BINSEARCH_NONE,$/;"	e	enum:__anon17	file:
+BINSEARCH_UP	quantize-pvt.c	/^    BINSEARCH_UP, $/;"	e	enum:__anon17	file:
+BITS_IN_A_BYTE	util.h	58;"	d
+BLKSIZE	encoder.h	65;"	d
+BLKSIZE_s	encoder.h	67;"	d
+BOOL	mpglib/mpglib.h	/^	typedef int BOOL; \/* windef.h contains the same definition *\/$/;"	t
+BOOL	mpglib/mpglib.h	37;"	d
+BRHIST_BARMAX	brhist.c	8;"	d	file:
+BRHIST_H_INCLUDED	brhist.h	3;"	d
+BRHIST_SWITCH	Makefile	/^   BRHIST_SWITCH = -DBRHIST$/;"	m
+BRHIST_SWITCH	Makefile	/^BRHIST_SWITCH = $/;"	m
+BUFFER_SIZE	util.h	82;"	d
+BYTES_FLAG	VbrTag.h	44;"	d
+BitCount	formatBitstream.c	/^static int BitCount       = 0;$/;"	v	file:
+Bit_stream_struc	util.h	/^} Bit_stream_struc;$/;"	t	typeref:struct:bit_stream_struc
+BitrateIndex	util.c	/^int BitrateIndex($/;"	f
+BitsRemaining	formatBitstream.c	/^static int BitsRemaining  = 0;$/;"	v	file:
+Bmax	doc/html/switchs.html	/^  <dt><strong>* <kbd>-B<\/kbd><a name="Bmax">&nbsp;&nbsp;&nbsp;&nbsp;maximum VBR $/;"	a
+Bytes2Hex	ieeefloat.c	/^Bytes2Hex(register char *bytes, register char *hex, register int nBytes)$/;"	f
+CBANDS	encoder.h	52;"	d
+CC	Makefile	/^   CC = $(BE_C_COMPILER)$/;"	m
+CC	Makefile	/^   CC = cc	$/;"	m
+CC	Makefile	/^   CC = cc$/;"	m
+CC	Makefile	/^   CC = gcc$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	mpglib/Makefile	/^CC=gcc$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS =  -O3 -fomit-frame-pointer -funroll-loops -ffast-math  -finline-functions -Wall$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -O -xCC  	$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -O3$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -O9 -ffast-math -funroll-loops -fomit-frame-pointer$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -O9 -fomit-frame-pointer -march=pentium \\$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -fast -O3 -std -g3 -non_shared$/;"	m
+CC_OPTS	Makefile	/^   CC_OPTS = -opt all$/;"	m
+CC_OPTS	Makefile	/^CC_OPTS =       -O4 -Wall -fomit-frame-pointer -ffast-math -funroll-loops \\$/;"	m
+CC_OPTS	Makefile	/^CC_OPTS =  -O$/;"	m
+CC_SWITCHES	Makefile	/^CC_SWITCHES = -DNDEBUG -D__NO_MATH_INLINES $(CC_OPTS) $(SNDLIB) $(GTK) $(BRHIST_SWITCH)$/;"	m
+CFLAGS	mpglib/Makefile	/^CFLAGS=-Wall -g$/;"	m
+CHILD_LINKS	doc/html/node5.html	/^<!--Table of Child-Links--> <A NAME="CHILD_LINKS">&#160;<\/A> $/;"	a
+CHILD_LINKS	doc/html/node6.html	/^<FONT FACE = Helvetica > <!--Table of Child-Links--> <A NAME="CHILD_LINKS"><strong>Subsections<\/strong><\/A> $/;"	a
+CLINK	portableio.h	63;"	d
+CLINK	portableio.h	65;"	d
+COS1	mpglib/layer3.c	/^static real COS1[12][6];$/;"	v	file:
+COS6_1	mpglib/layer3.c	/^static real COS6_1,COS6_2;$/;"	v	file:
+COS6_2	mpglib/layer3.c	/^static real COS6_1,COS6_2;$/;"	v	file:
+COS9	mpglib/layer3.c	/^static real COS9[9];$/;"	v	file:
+CPP_OPTS	Makefile	/^CPP_OPTS = -DHAVEMPGLIB -DLAMEPARSE$/;"	m
+CRC16_POLYNOMIAL	util.h	60;"	d
+CRC_BF_addEntry	l3bitstream.c	/^static BF_PartHolder *CRC_BF_addEntry( BF_PartHolder *thePH, u_int value, u_int length )$/;"	f	file:
+CURRENT_STRUCT_SIZE	Dll/BladeMP3EncDLL.c	/^const int CURRENT_STRUCT_SIZE=sizeof(BE_CONFIG);$/;"	v
+CURRENT_STRUCT_VERSION	Dll/BladeMP3EncDLL.c	/^const int CURRENT_STRUCT_VERSION=1;$/;"	v
+CheckVbrTag	VbrTag.c	/^int CheckVbrTag(unsigned char *buf)$/;"	f
+CloseSndFile	get_audio.c	/^void CloseSndFile(lame_global_flags *gfp)$/;"	f
+ConvertFromIeeeDouble	ieeefloat.c	/^ConvertFromIeeeDouble(char* bytes)$/;"	f
+ConvertFromIeeeExtended	ieeefloat.c	/^ConvertFromIeeeExtended(char* bytes)$/;"	f
+ConvertFromIeeeSingle	ieeefloat.c	/^ConvertFromIeeeSingle(char* bytes)$/;"	f
+ConvertToIeeeDouble	ieeefloat.c	/^ConvertToIeeeDouble(defdouble num, char *bytes)$/;"	f
+ConvertToIeeeExtended	ieeefloat.c	/^ConvertToIeeeExtended(defdouble num, char *bytes)$/;"	f
+ConvertToIeeeSingle	ieeefloat.c	/^ConvertToIeeeSingle(defdouble num, char* bytes)$/;"	f
+CreateI4	VbrTag.c	/^void CreateI4(unsigned char *buf, int nValue)$/;"	f
+D192_3	l3side.h	/^typedef FLOAT8	D192_3[192][3];$/;"	t
+D576	l3side.h	/^typedef FLOAT8	D576[576];$/;"	t
+DCT12_PART1	mpglib/layer3.c	1323;"	d	file:
+DCT12_PART2	mpglib/layer3.c	1336;"	d	file:
+DEBUGXX	vbrquantize.c	33;"	d	file:
+DECDELAY	encoder.h	45;"	d
+DEP	Makefile	/^DEP = $(c_sources:.c=.d)$/;"	m
+DEXP_MAX	ieeefloat.c	199;"	d	file:
+DEXP_OFFSET	ieeefloat.c	200;"	d	file:
+DEXP_POSITION	ieeefloat.c	202;"	d	file:
+DEXP_SIZE	ieeefloat.c	201;"	d	file:
+DParts	ieeefloat.c	/^union DParts {$/;"	u	file:
+DetermineByteOrder	util.c	/^enum byte_order DetermineByteOrder(void)$/;"	f
+DispErr	Dll/BladeMP3EncDLL.c	/^void DispErr(LPSTR strErr)$/;"	f
+DllMain	Dll/BladeMP3EncDLL.c	/^BOOL APIENTRY DllMain(HANDLE hModule, $/;"	f
+Double	ieeefloat.h	/^ typedef double Double;$/;"	t
+Double	ieeefloat.h	/^ typedef short double Double;$/;"	t
+ENCDELAY	encoder.h	32;"	d
+ENCODER_DOT_H	encoder.h	2;"	d
+EParts	ieeefloat.c	/^union EParts {$/;"	u	file:
+ExitMP3	mpglib/interface.c	/^void ExitMP3(struct mpstr *mp)$/;"	f
+ExtractI4	VbrTag.c	/^static int ExtractI4(unsigned char *buf)$/;"	f	file:
+F8size	quantize-pvt.c	934;"	d	file:
+F8size	quantize-pvt.c	937;"	d	file:
+F8size	quantize-pvt.c	948;"	d	file:
+F8size	quantize-pvt.c	951;"	d	file:
+F8type	quantize-pvt.c	933;"	d	file:
+F8type	quantize-pvt.c	936;"	d	file:
+F8type	quantize-pvt.c	947;"	d	file:
+F8type	quantize-pvt.c	950;"	d	file:
+FALSE	mpglib/mpg123.h	37;"	d
+FALSE	util.h	20;"	d
+FFTOFFSET	encoder.h	40;"	d
+FFT_H	fft.h	2;"	d
+FLOAT	Dll/BladeMP3EncDLL.h	62;"	d
+FLOAT	machine.h	/^	typedef float FLOAT;$/;"	t
+FLOAT8	machine.h	/^typedef double FLOAT8;  $/;"	t
+FLOAT8_is_double	machine.h	86;"	d
+FRAMES_AND_BYTES	VbrTag.h	50;"	d
+FRAMES_FLAG	VbrTag.h	43;"	d
+FSIZE	mpglib/main.c	19;"	d	file:
+FloatToUnsigned	ieeefloat.c	77;"	d	file:
+FloatToUnsigned	ieeefloat.c	80;"	d	file:
+GET_AUDIO_H_INCLUDED	get_audio.h	22;"	d
+GTK	Makefile	/^   GTK = -DHAVEGTK `gtk-config --cflags`$/;"	m
+GTK	Makefile	/^   GTK = -DHAVEGTK `gtk12-config --cflags`$/;"	m
+GTK	Makefile	/^GTK = $/;"	m
+GTKANAL_DOT_H	gtkanal.h	2;"	d
+GTKLIBS	Makefile	/^   GTKLIBS = `gtk-config --libs` $/;"	m
+GTKLIBS	Makefile	/^   GTKLIBS = `gtk12-config --libs` $/;"	m
+GTKLIBS	Makefile	/^GTKLIBS = $/;"	m
+GetHexSymbol	ieeefloat.c	/^GetHexSymbol(register int x)$/;"	f
+GetHexValue	ieeefloat.c	/^GetHexValue(register int x)$/;"	f
+GetSndBitrate	get_audio.c	/^int GetSndBitrate(void)$/;"	f
+GetSndChannels	get_audio.c	/^int GetSndChannels(void)$/;"	f
+GetSndSampleRate	get_audio.c	/^int GetSndSampleRate(void)$/;"	f
+GetSndSamples	get_audio.c	/^unsigned long GetSndSamples(void)$/;"	f
+GetVbrTag	VbrTag.c	/^int GetVbrTag(VBRTAGDATA *pTagData,  unsigned char *buf)$/;"	f
+HAN_SIZE	util.h	59;"	d
+HBE_STREAM	Dll/BladeMP3EncDLL.h	/^typedef		unsigned long			HBE_STREAM;$/;"	t
+HBLKSIZE	encoder.h	66;"	d
+HBLKSIZE_s	encoder.h	68;"	d
+HDRCMPMASK	mpglib/common.c	61;"	d	file:
+HIGH_QUALITY	Dll/BladeMP3EncDLL.h	/^	HIGH_QUALITY,$/;"	e	enum:__anon10
+HTN	tables.h	26;"	d
+HUFFBITS	tables.h	25;"	d
+Hex2Bytes	ieeefloat.c	/^Hex2Bytes(register char *hex, register char *bytes)$/;"	f
+HuffmanCode	l3bitstream.c	/^HuffmanCode( int table_select, int x, int y, unsigned int *code, unsigned int *ext, int *cbits, int *xbits )$/;"	f
+Huffmancodebits	l3bitstream.c	/^Huffmancodebits( BF_PartHolder **pph, int *ix, gr_info *gi )$/;"	f	file:
+I192_3	l3side.h	/^typedef int	I192_3[192][3];$/;"	t
+I576	l3side.h	/^typedef int	I576[576];$/;"	t
+ID3TAGDATA	id3tag.h	/^}   ID3TAGDATA;$/;"	t	typeref:struct:__anon9
+ID3TAG_H_INCLUDED	id3tag.h	2;"	d
+IEEE	ieeefloat.c	433;"	d	file:
+IEEE	ieeefloat.c	436;"	d	file:
+IEEE	ieeefloat.c	439;"	d	file:
+IEEE	ieeefloat.c	442;"	d	file:
+IEEE	ieeefloat.c	445;"	d	file:
+IEEE	ieeefloat.c	449;"	d	file:
+IEEE	ieeefloat.c	452;"	d	file:
+IEEE_FLOAT_H__	ieeefloat.h	2;"	d
+IFF_AIFF	get_audio.h	/^} IFF_AIFF;$/;"	t	typeref:struct:IFF_AIFF_struct
+IFF_AIFF_struct	get_audio.h	/^typedef struct  IFF_AIFF_struct {$/;"	s
+IFF_ID_AIFF	get_audio.h	30;"	d
+IFF_ID_COMM	get_audio.h	31;"	d
+IFF_ID_FORM	get_audio.h	29;"	d
+IFF_ID_MPEG	get_audio.h	33;"	d
+IFF_ID_SSND	get_audio.h	32;"	d
+III_FlushBitstream	l3bitstream.c	/^III_FlushBitstream(void)$/;"	f
+III_antialias	mpglib/layer3.c	/^static void III_antialias(real xr[SBLIMIT][SSLIMIT],struct gr_info_s *gr_info)$/;"	f	file:
+III_dequantize_sample	mpglib/layer3.c	/^static int III_dequantize_sample(real xr[SBLIMIT][SSLIMIT],int *scf,$/;"	f	file:
+III_format_bitstream	l3bitstream.c	/^III_format_bitstream( lame_global_flags *gfp,$/;"	f
+III_get_scale_factors_1	mpglib/layer3.c	/^static int III_get_scale_factors_1(int *scf,struct gr_info_s *gr_info)$/;"	f	file:
+III_get_scale_factors_2	mpglib/layer3.c	/^static int III_get_scale_factors_2(int *scf,struct gr_info_s *gr_info,int i_stereo)$/;"	f	file:
+III_get_side_info_1	mpglib/layer3.c	/^static void III_get_side_info_1(struct III_sideinfo *si,int stereo,$/;"	f	file:
+III_get_side_info_2	mpglib/layer3.c	/^static void III_get_side_info_2(struct III_sideinfo *si,int stereo,$/;"	f	file:
+III_hybrid	mpglib/layer3.c	/^static void III_hybrid(real fsIn[SBLIMIT][SSLIMIT],real tsOut[SSLIMIT][SBLIMIT],$/;"	f	file:
+III_i_stereo	mpglib/layer3.c	/^static void III_i_stereo(real xr_buf[2][SBLIMIT][SSLIMIT],int *scalefac,$/;"	f	file:
+III_psy_ratio	l3side.h	/^} III_psy_ratio;$/;"	t	typeref:struct:__anon20
+III_psy_xmin	l3side.h	/^} III_psy_xmin;$/;"	t	typeref:struct:__anon19
+III_scalefac_t	l3side.h	/^} III_scalefac_t;  \/* [gr][ch] *\/$/;"	t	typeref:struct:__anon24
+III_side_info_t	l3side.h	/^	} III_side_info_t;$/;"	t	typeref:struct:__anon22
+III_sideinfo	mpglib/mpg123.h	/^struct III_sideinfo$/;"	s
+INLINE	machine.h	60;"	d
+INLINE	machine.h	62;"	d
+INLINE	machine.h	64;"	d
+IPOW20	machine.h	51;"	d
+IXMAX_VAL	quantize-pvt.h	4;"	d
+InitFormatBitStream	formatBitstream.c	/^void InitFormatBitStream(void)$/;"	f
+InitMP3	mpglib/interface.c	/^BOOL InitMP3(struct mpstr *mp) $/;"	f
+InitParams	Dll/BladeMP3EncDLL.c	/^static void InitParams()$/;"	f	file:
+InitVbrTag	VbrTag.c	/^int InitVbrTag(Bit_stream_struc* pBs,int nVersion, int nMode, int SampIndex)$/;"	f
+L3BITSTREAM_PVT_H	l3bitstream-pvt.h	28;"	d
+L3PSY_DOT_H_	psymodel.h	2;"	d
+L3_BITSTREAM_H	l3bitstream.h	31;"	d
+L3_SIDE_H	l3side.h	10;"	d
+L3_huffman_coder_count1	l3bitstream.c	/^L3_huffman_coder_count1( BF_PartHolder **pph, struct huffcodetab *h, int v, int w, int x, int y )$/;"	f
+L3para_read	psymodel.c	/^void L3para_read(FLOAT8 sfreq, int *numlines_l,int *numlines_s, int *partition_l, FLOAT8 *minval,$/;"	f
+L3psycho_anal	psymodel.c	/^void L3psycho_anal( lame_global_flags *gfp,$/;"	f
+LAME_ALPHAVERSION	version.h	27;"	d
+LAME_BETAVERSION	version.h	28;"	d
+LAME_H_INCLUDE	lame.h	21;"	d
+LAME_H_INCLUDED	version.h	23;"	d
+LAME_MAJOR_VERSION	version.h	25;"	d
+LAME_MAXMP3BUFFER	lame.h	26;"	d
+LAME_MINOR_VERSION	version.h	26;"	d
+LAMEmainbits	gtkanal.h	/^  int LAMEmainbits[2][2];$/;"	m	struct:__anon7
+LAMEqss	gtkanal.h	/^  int LAMEqss[2][2];$/;"	m	struct:__anon7
+LAMEsfb	gtkanal.h	/^  double LAMEsfb[2][2][SBMAX_l];$/;"	m	struct:__anon7
+LAMEsfb_s	gtkanal.h	/^  double LAMEsfb_s[2][2][3*SBMAX_s];$/;"	m	struct:__anon7
+LARGE_BITS	quantize-pvt.h	121;"	d
+LHV1	Dll/BladeMP3EncDLL.h	/^			} LHV1;					\/\/ LAME header version 1$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon14
+LIBS	Makefile	/^   LIBS =$/;"	m
+LIBS	Makefile	/^LIBS    =       -lcpml $/;"	m
+LIBS	Makefile	/^LIBS = -lm $/;"	m
+LIBSNDFILE	Makefile	/^LIBSNDFILE =  $/;"	m
+LIBTERMCAP	Makefile	/^   LIBTERMCAP = -lncurses$/;"	m
+LIBTERMCAP	Makefile	/^   LIBTERMCAP = -ltermcap$/;"	m
+LIBTERMCAP	Makefile	/^LIBTERMCAP = $/;"	m
+LITTLE_ENDIAN	ieeefloat.c	446;"	d	file:
+LN_TO_LOG10	psymodel.c	24;"	d	file:
+LN_TO_LOG10	psymodel.c	26;"	d	file:
+LOG10	util.h	45;"	d
+LOG10	util.h	47;"	d
+LOG2	util.h	39;"	d
+LOG2	util.h	41;"	d
+LOOP_DOT_H	quantize.h	31;"	d
+LOOP_PVT_H	quantize-pvt.h	2;"	d
+LOW_QUALITY	Dll/BladeMP3EncDLL.h	/^	LOW_QUALITY,$/;"	e	enum:__anon10
+MACHINE_H_INCLUDED	machine.h	24;"	d
+MACRO0	mpglib/layer3.c	1232;"	d	file:
+MACRO1	mpglib/layer3.c	1239;"	d	file:
+MACRO2	mpglib/layer3.c	1244;"	d	file:
+MAJORVERSION	Dll/BladeMP3EncDLL.c	/^const int MAJORVERSION=1;$/;"	v
+MAKEDEP	Makefile	/^   MAKEDEP = -make $/;"	m
+MAKEDEP	Makefile	/^   MAKEDEP = -make$/;"	m
+MAKEDEP	Makefile	/^   MAKEDEP = -xM$/;"	m
+MAKEDEP	Makefile	/^MAKEDEP = -M$/;"	m
+MAXFRAMESIZE	mpglib/mpg123.h	48;"	d
+MAXMPGLAG	gtkanal.h	7;"	d
+MAXNOISEXX	quantize.c	1;"	d	file:
+MAX_CHANNELS	formatBitstream.h	20;"	d
+MAX_GRANULES	formatBitstream.h	24;"	d
+MAX_LENGTH	util.h	80;"	d
+MAX_NAME_SIZE	parse.c	11;"	d	file:
+MAX_U_32_NUM	util.h	27;"	d
+MDCTDELAY	encoder.h	39;"	d
+MDCT_DOT_H	newmdct.h	2;"	d
+MFSIZE	lame.c	53;"	d	file:
+MINIMUM	util.h	79;"	d
+MINORVERSION	Dll/BladeMP3EncDLL.c	/^const int MINORVERSION=05;$/;"	v
+MP3X_ALPHAVERSION	version.h	37;"	d
+MP3X_BETAVERSION	version.h	38;"	d
+MP3X_MAJOR_VERSION	version.h	35;"	d
+MP3X_MINOR_VERSION	version.h	36;"	d
+MP3_ERR	mpglib/mpglib.h	40;"	d
+MP3_NEED_MORE	mpglib/mpglib.h	42;"	d
+MP3_OK	mpglib/mpglib.h	41;"	d
+MPEG1	Dll/BladeMP3EncDLL.h	58;"	d
+MPEG1	mpglib/layer3.c	19;"	d	file:
+MPEG2	Dll/BladeMP3EncDLL.h	59;"	d
+MPEGABase	amiga_mpega.c	/^struct Library  *MPEGABase;$/;"	v	typeref:struct:Library
+MPEG_QUALITY	Dll/BladeMP3EncDLL.h	/^} MPEG_QUALITY;$/;"	t	typeref:enum:__anon10
+MPG_MD_DUAL_CHANNEL	mpglib/mpg123.h	45;"	d
+MPG_MD_DUAL_CHANNEL	util.h	66;"	d
+MPG_MD_JOINT_STEREO	mpglib/mpg123.h	44;"	d
+MPG_MD_JOINT_STEREO	util.h	65;"	d
+MPG_MD_LR_I	util.h	72;"	d
+MPG_MD_LR_LR	util.h	71;"	d
+MPG_MD_MONO	mpglib/mpg123.h	46;"	d
+MPG_MD_MONO	util.h	67;"	d
+MPG_MD_MS_I	util.h	74;"	d
+MPG_MD_MS_LR	util.h	73;"	d
+MPG_MD_STEREO	mpglib/mpg123.h	43;"	d
+MPG_MD_STEREO	util.h	64;"	d
+MYSideInfo	formatBitstream.c	/^} MYSideInfo;$/;"	t	typeref:struct:__anon6	file:
+M_PI	mpglib/mpg123.h	9;"	d
+M_SQRT2	mpglib/mpg123.h	12;"	d
+MachineIEEEDouble	ieeefloat.c	/^MachineIEEEDouble(char* bytes)$/;"	f
+MachineIEEESingle	ieeefloat.c	/^MachineIEEESingle(char* bytes)$/;"	f
+Max	util.h	85;"	d
+MaybeSwapBytes	ieeefloat.c	/^MaybeSwapBytes(char* bytes, int nBytes)$/;"	f
+Min	util.h	84;"	d
+NEWBARKXXX	psymodel.c	1032;"	d	file:
+NEWS3XX	psymodel.c	274;"	d	file:
+NEW_DCT9	mpglib/mpg123.h	19;"	d
+NL	newmdct.c	122;"	d	file:
+NMT	psymodel.c	279;"	d	file:
+NORMAL_QUALITY	Dll/BladeMP3EncDLL.h	/^	NORMAL_QUALITY=0,$/;"	e	enum:__anon10
+NORM_TYPE	encoder.h	72;"	d
+NS	newmdct.c	121;"	d	file:
+NUMBACK	gtkanal.h	8;"	d
+NUMPINFO	gtkanal.h	9;"	d
+NUMTOCENTRIES	VbrTag.h	48;"	d
+NativeByteOrder	util.c	/^enum byte_order NativeByteOrder = order_unknown;$/;"	v	typeref:enum:byte_order
+OBJ	Makefile	/^OBJ = $(c_sources:.c=.o)$/;"	m
+OLDBUFSIZE	lame.c	881;"	d	file:
+OpenSndFile	get_audio.c	/^FILE * OpenSndFile(lame_global_flags *gfp,const char* inPath, int default_samp,$/;"	f
+OpenSndFile	get_audio.c	/^FILE * OpenSndFile(lame_global_flags *gfp,const char* lpszFileName, int default_samp,$/;"	f
+PBE_CONFIG	Dll/BladeMP3EncDLL.h	/^} BE_CONFIG, *PBE_CONFIG;$/;"	t	typeref:struct:__anon11
+PBE_VERSION	Dll/BladeMP3EncDLL.h	/^} BE_VERSION, *PBE_VERSION;			$/;"	t	typeref:struct:__anon16
+PGM	Makefile	/^   PGM = lame.exe$/;"	m
+PGM	Makefile	/^PGM = lame$/;"	m
+PHBE_STREAM	Dll/BladeMP3EncDLL.h	/^typedef		HBE_STREAM				*PHBE_STREAM;$/;"	t
+PI	util.h	31;"	d
+PI	util.h	33;"	d
+PORTABLEIO_H__	portableio.h	2;"	d
+POW20	machine.h	45;"	d
+PRECALC_SIZE	quantize-pvt.h	5;"	d
+PSY_ALPHAVERSION	version.h	32;"	d
+PSY_BETAVERSION	version.h	33;"	d
+PSY_MAJOR_VERSION	version.h	30;"	d
+PSY_MINOR_VERSION	version.h	31;"	d
+PartHoldersInitialized	l3bitstream.c	/^int PartHoldersInitialized = 0;$/;"	v
+PartWriteFcnPtr	formatBitstream.c	/^typedef int (*PartWriteFcnPtr)( BF_BitstreamPart *part, BF_FrameResults *results );$/;"	t	file:
+Pinfo	gtkanal.c	/^plotting_data Pinfo[NUMPINFO];$/;"	v
+PutVbrTag	VbrTag.c	/^int PutVbrTag(char* lpszFileName,int nVbrScale,int nVersion)$/;"	f
+QUANTFAC	quantize-pvt.c	908;"	d	file:
+QUANTFAC	quantize-pvt.c	913;"	d	file:
+QUANTFAC	quantize-pvt.c	925;"	d	file:
+Q_MAX	quantize-pvt.h	23;"	d
+READ_AHEAD	gtkanal.h	6;"	d
+REAL_IS_FLOAT	mpglib/mpg123.h	18;"	d
+RESERVOIR_H	reservoir.h	36;"	d
+RM	Makefile	/^RM = rm -f$/;"	m
+ROUNDFAC	quantize-pvt.c	909;"	d	file:
+ROUNDFAC	quantize-pvt.c	914;"	d	file:
+ROUNDFAC	quantize-pvt.c	926;"	d	file:
+RTPheader	mp3rtp.c	/^struct rtpheader RTPheader;$/;"	v	typeref:struct:rtpheader
+Read16BitsHighLow	portableio.c	/^Read16BitsHighLow(FILE *fp)$/;"	f
+Read16BitsLowHigh	portableio.c	/^Read16BitsLowHigh(FILE *fp)$/;"	f
+Read24BitsHighLow	portableio.c	/^Read24BitsHighLow(FILE *fp)$/;"	f
+Read32Bits	portableio.c	/^Read32Bits(FILE *fp)$/;"	f
+Read32BitsHighLow	portableio.c	/^Read32BitsHighLow(FILE *fp)$/;"	f
+Read32BitsLowHigh	portableio.c	150;"	d	file:
+Read32BitsLowHigh	portableio.h	97;"	d
+ReadByte	portableio.c	/^ReadByte(FILE *fp)$/;"	f
+ReadBytes	portableio.c	/^void ReadBytes(FILE	*fp, char *p, int n)$/;"	f
+ReadBytesSwapped	portableio.c	/^void ReadBytesSwapped(FILE *fp, char *p, int n)$/;"	f
+ReadIeeeDoubleHighLow	portableio.c	/^ReadIeeeDoubleHighLow(FILE *fp)$/;"	f
+ReadIeeeDoubleLowHigh	portableio.c	/^ReadIeeeDoubleLowHigh(FILE *fp)$/;"	f
+ReadIeeeExtendedHighLow	portableio.c	/^ReadIeeeExtendedHighLow(FILE *fp)$/;"	f
+ReadIeeeExtendedLowHigh	portableio.c	/^ReadIeeeExtendedLowHigh(FILE *fp)$/;"	f
+ReadIeeeFloatHighLow	portableio.c	/^ReadIeeeFloatHighLow(FILE *fp)$/;"	f
+ReadIeeeFloatLowHigh	portableio.c	/^ReadIeeeFloatLowHigh(FILE *fp)$/;"	f
+ResvAdjust	reservoir.c	/^ResvAdjust(lame_global_flags *gfp,gr_info *gi, III_side_info_t *l3_side, int mean_bits )$/;"	f
+ResvFrameBegin	reservoir.c	/^ResvFrameBegin(lame_global_flags *gfp,III_side_info_t *l3_side, int mean_bits, int frameLength )$/;"	f
+ResvFrameEnd	reservoir.c	/^ResvFrameEnd(lame_global_flags *gfp,III_side_info_t *l3_side, int mean_bits)$/;"	f
+ResvMax	reservoir.c	/^static int ResvMax  = 0; \/* in bits *\/$/;"	v	file:
+ResvMaxBits	reservoir.c	/^void ResvMaxBits(int mean_bits, int *targ_bits, int *extra_bits, int gr)$/;"	f
+ResvSize	reservoir.c	/^static int ResvSize = 0; \/* in bits *\/$/;"	v	file:
+S	doc/html/switchs.html	/^    <strong>* <kbd>-S<\/kbd><a name="S">&nbsp;&nbsp;&nbsp;&nbsp;silent operation<\/a><\/strong> $/;"	a
+SBLIMIT	encoder.h	49;"	d
+SBLIMIT	mpglib/mpg123.h	40;"	d
+SBMAX_l	encoder.h	59;"	d
+SBMAX_s	encoder.h	60;"	d
+SBPSY_l	encoder.h	55;"	d
+SBPSY_s	encoder.h	56;"	d
+SCALE	newmdct.c	32;"	d	file:
+SECTION00300000000000000000	doc/html/node5.html	/^<H1><A NAME="SECTION00300000000000000000"> For the impatient<\/A> <\/H1>$/;"	a
+SECTION00310000000000000000	doc/html/node6.html	/^<H1><A NAME="SECTION00310000000000000000"> Introduction<\/A> <\/H1>$/;"	a
+SECTION00311000000000000000	doc/html/node6.html	/^<H2><A NAME="SECTION00311000000000000000"> The purpose of audio compression<\/A> $/;"	a
+SECTION00312000000000000000	doc/html/node6.html	/^<H2><A NAME="SECTION00312000000000000000"> The two parts of audio compression<\/A> $/;"	a
+SECTION00313000000000000000	doc/html/node6.html	/^<H2><A NAME="SECTION00313000000000000000"> Compression ratios, bitrate and quality<\/A> $/;"	a
+SECTION00320000000000000000	doc/html/node7.html	/^<H1> <A NAME="SECTION00320000000000000000"><\/A><FONT FACE="Helvetica">Some examples<\/FONT><\/H1>$/;"	a
+SEXP_MAX	ieeefloat.c	89;"	d	file:
+SEXP_OFFSET	ieeefloat.c	90;"	d	file:
+SEXP_POSITION	ieeefloat.c	92;"	d	file:
+SEXP_SIZE	ieeefloat.c	91;"	d	file:
+SHELL	Makefile	/^   SHELL=sh	$/;"	m
+SHORT_TYPE	encoder.h	74;"	d
+SILength	formatBitstream.c	/^    int SILength;$/;"	m	struct:__anon6	file:
+SILength	formatBitstream.h	/^    int SILength;$/;"	m	struct:BF_FrameResults
+SNDLIB	Makefile	/^SNDLIB = -DLAMESNDFILE$/;"	m
+SParts	ieeefloat.c	/^union SParts {$/;"	u	file:
+SQRT2	util.h	52;"	d
+SQRT2	util.h	54;"	d
+SSLIMIT	mpglib/mpg123.h	41;"	d
+START_TYPE	encoder.h	73;"	d
+STOP_TYPE	encoder.h	75;"	d
+SeekPoint	VbrTag.c	/^int SeekPoint(unsigned char TOC[NUMTOCENTRIES], int file_bytes, float percent)$/;"	f
+SignalFPE	ieeefloat.c	/^void SignalFPE(int i, void (*j)())$/;"	f
+Single	ieeefloat.h	/^typedef float Single;$/;"	t
+SizeOfEmptyFrame	VbrTag.c	/^int SizeOfEmptyFrame[2][2]=$/;"	v
+SmpFrqIndex	util.c	/^int SmpFrqIndex(  \/* convert samp frq in Hz to index *\/$/;"	f
+SwapBytesInWords	util.c	/^void SwapBytesInWords( short *loc, int words )$/;"	f
+TABLES_H_INCLUDED	tables.h	21;"	d
+TEXT_BECLOSESTREAM	Dll/BladeMP3EncDLL.h	173;"	d
+TEXT_BEDEINITSTREAM	Dll/BladeMP3EncDLL.h	172;"	d
+TEXT_BEENCODECHUNK	Dll/BladeMP3EncDLL.h	171;"	d
+TEXT_BEINITSTREAM	Dll/BladeMP3EncDLL.h	170;"	d
+TEXT_BEVERSION	Dll/BladeMP3EncDLL.h	174;"	d
+TIMESTATUS_H_INCLUDED	timestatus.h	2;"	d
+TMN	psymodel.c	278;"	d	file:
+TOC_FLAG	VbrTag.h	45;"	d
+TRI_SIZE	fft.c	39;"	d	file:
+TRUE	mpglib/mpg123.h	38;"	d
+TRUE	util.h	24;"	d
+TS_CLOCKS_PER_SEC	timestatus.c	10;"	d	file:
+TS_CLOCKS_PER_SEC	timestatus.c	13;"	d	file:
+TS_CLOCKS_PER_SEC	timestatus.c	72;"	d	file:
+TS_CLOCKS_PER_SEC	timestatus.c	7;"	d	file:
+TS_TIME_DECOMPOSE	timestatus.c	126;"	d	file:
+TestFromIeeeDouble	ieeefloat.c	/^TestFromIeeeDouble(char *hex)$/;"	f
+TestFromIeeeExtended	ieeefloat.c	/^TestFromIeeeExtended(char *hex)$/;"	f
+TestFromIeeeSingle	ieeefloat.c	/^TestFromIeeeSingle(char *hex)$/;"	f
+TestToIeeeDouble	ieeefloat.c	/^TestToIeeeDouble(defdouble f)$/;"	f
+TestToIeeeExtended	ieeefloat.c	/^TestToIeeeExtended(defdouble f)$/;"	f
+TestToIeeeSingle	ieeefloat.c	/^TestToIeeeSingle(defdouble f)$/;"	f
+ThisFrameSize	formatBitstream.c	/^static int ThisFrameSize  = 0;$/;"	v	file:
+TotalFrameSize	VbrTag.c	/^static int TotalFrameSize=0;$/;"	v	file:
+UNAME	Makefile	/^UNAME = $(shell uname)$/;"	m
+USE_GNUC_ASM	quantize-pvt.c	891;"	d	file:
+USE_MSC_ASM	quantize-pvt.c	894;"	d	file:
+UTIL_DOT_H	util.h	2;"	d
+UnsignedToFloat	ieeefloat.c	78;"	d	file:
+UnsignedToFloat	ieeefloat.c	81;"	d	file:
+V	doc/html/switchs.html	/^  <dt><strong>* <kbd>-V 0...9<\/kbd><a name="V">&nbsp;&nbsp;&nbsp;&nbsp;VBR quality $/;"	a
+VBR	lame.h	/^  int VBR;$/;"	m	struct:__anon8
+VBRHEADERSIZE	VbrTag.h	76;"	d
+VBRTAGDATA	VbrTag.h	/^}   VBRTAGDATA;$/;"	t	typeref:struct:__anon3
+VBRTag	VbrTag.c	/^static char	VBRTag[]={"Xing"};$/;"	v	file:
+VBR_SCALE_FLAG	VbrTag.h	46;"	d
+VBR_compare	quantize.c	/^int VBR_compare($/;"	f
+VBR_iteration_loop	quantize.c	/^VBR_iteration_loop (lame_global_flags *gfp,$/;"	f
+VBR_iteration_loop_new	vbrquantize.c	/^VBR_iteration_loop_new (lame_global_flags *gfp,$/;"	f
+VBR_max_bitrate	lame.h	/^  int VBR_max_bitrate;            \/* max bitrate index *\/$/;"	m	struct:__anon8
+VBR_max_bitrate_kbps	lame.h	/^  int VBR_max_bitrate_kbps;$/;"	m	struct:__anon8
+VBR_min_bitrate	lame.h	/^  int VBR_min_bitrate;            \/* min bitrate index *\/$/;"	m	struct:__anon8
+VBR_min_bitrate_kbps	lame.h	/^  int VBR_min_bitrate_kbps;$/;"	m	struct:__anon8
+VBR_q	lame.h	/^  int VBR_q;$/;"	m	struct:__anon8
+VOICE_QUALITY	Dll/BladeMP3EncDLL.h	/^	VOICE_QUALITY$/;"	e	enum:__anon10
+VRBTAG_H_INCLUDED	VbrTag.h	23;"	d
+WAV_ID_DATA	get_audio.c	636;"	d	file:
+WAV_ID_FMT	get_audio.c	635;"	d	file:
+WAV_ID_RIFF	get_audio.c	633;"	d	file:
+WAV_ID_WAVE	get_audio.c	634;"	d	file:
+WIN32_LEAN_AND_MEAN	machine.h	73;"	d
+WRITE_SAMPLE	mpglib/decode_i386.c	24;"	d	file:
+Write16BitsHighLow	portableio.c	/^Write16BitsHighLow(FILE *fp, int i)$/;"	f
+Write16BitsLowHigh	portableio.c	/^Write16BitsLowHigh(FILE *fp, int i)$/;"	f
+Write32Bits	portableio.c	/^Write32Bits(FILE *fp, int i)$/;"	f
+Write32BitsHighLow	portableio.c	/^Write32BitsHighLow(FILE *fp, int i)$/;"	f
+Write32BitsLowHigh	portableio.c	/^Write32BitsLowHigh(FILE *fp, int i)$/;"	f
+Write8Bits	portableio.c	/^Write8Bits(FILE *fp, int i)$/;"	f
+WriteBytes	portableio.c	/^void WriteBytes(FILE *fp, char *p, int n)$/;"	f
+WriteBytesSwapped	portableio.c	/^void WriteBytesSwapped(FILE *fp, char *p, int n)$/;"	f
+WriteIeeeDoubleHighLow	portableio.c	/^WriteIeeeDoubleHighLow(FILE *fp, defdouble num)$/;"	f
+WriteIeeeDoubleLowHigh	portableio.c	/^WriteIeeeDoubleLowHigh(FILE *fp, defdouble num)$/;"	f
+WriteIeeeExtendedHighLow	portableio.c	/^WriteIeeeExtendedHighLow(FILE *fp, defdouble num)$/;"	f
+WriteIeeeExtendedLowHigh	portableio.c	/^WriteIeeeExtendedLowHigh(FILE *fp, defdouble num)$/;"	f
+WriteIeeeFloatHighLow	portableio.c	/^WriteIeeeFloatHighLow(FILE *fp, defdouble num)$/;"	f
+WriteIeeeFloatLowHigh	portableio.c	/^WriteIeeeFloatLowHigh(FILE *fp, defdouble num)$/;"	f
+WriteMainDataBits	formatBitstream.c	/^WriteMainDataBits( u_int val,$/;"	f	file:
+WriteString	portableio.h	98;"	d
+XRPOW_FTOI	quantize-pvt.c	910;"	d	file:
+XRPOW_FTOI	quantize-pvt.c	915;"	d	file:
+XRPOW_FTOI	quantize-pvt.c	927;"	d	file:
+_DEBUGDLL	Dll/BladeMP3EncDLL.c	35;"	d	file:
+_FORMAT_BITSTREAM_H	formatBitstream.h	2;"	d
+___BLADEDLL_H_INCLUDED___	Dll/BladeMP3EncDLL.h	22;"	d
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) BE_ERR	beCloseStream(HBE_STREAM hbeStream)$/;"	f
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) BE_ERR	beDeinitStream(HBE_STREAM hbeStream, PBYTE pOutput, PDWORD pdwOutput)$/;"	f
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) BE_ERR	beEncodeChunk(HBE_STREAM hbeStream, DWORD nSamples, $/;"	f
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) BE_ERR	beInitStream(PBE_CONFIG pbeConfig, PDWORD dwSamples, PDWORD dwBufferSize, PHBE_STREAM phbeStream)$/;"	f
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) BE_ERR beWriteVBRHeader(LPCSTR lpszFileName)$/;"	f
+__declspec	Dll/BladeMP3EncDLL.c	/^__declspec(dllexport) VOID		beVersion(PBE_VERSION pbeVersion)$/;"	f
+a	doc/html/switchs.html	/^  <dt><strong>* <kbd>-a<\/kbd><a name="a">&nbsp;&nbsp;&nbsp;&nbsp;downmix&#160;<\/a><\/strong> $/;"	a
+aa_ca	mpglib/layer3.c	/^static real aa_ca[8],aa_cs[8];$/;"	v	file:
+aa_cs	mpglib/layer3.c	/^static real aa_ca[8],aa_cs[8];$/;"	v	file:
+aac	Dll/BladeMP3EncDLL.h	/^		} aac;$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon15
+abs_and_sign	l3bitstream.c	/^abs_and_sign( int *x )$/;"	f
+addbuf	mpglib/interface.c	/^static struct buf *addbuf(struct mpstr *mp,char *buf,int size)$/;"	f	file:
+adj43	quantize-pvt.c	/^static FLOAT8 adj43[PRECALC_SIZE];$/;"	v	file:
+adj43asm	quantize-pvt.c	/^static FLOAT8 adj43asm[PRECALC_SIZE];$/;"	v	file:
+aiff_check2	get_audio.c	/^aiff_check2(const char *file_name, IFF_AIFF *pcm_aiff_data)$/;"	f	file:
+al_table	util.h	/^typedef sb_alloc        al_table[SBLIMIT][16]; $/;"	t
+album	id3tag.h	/^	char album[31];$/;"	m	struct:__anon9
+all	newmdct.c	/^static const int all[] = {0,2,3,5,6,8,9,11,12,14,15,17};$/;"	v	file:
+alloc_buffer	util.c	/^void alloc_buffer($/;"	f
+alloc_ptr	util.h	/^} sb_alloc, *alloc_ptr;$/;"	t	typeref:struct:__anon5
+allow_diff_short	lame.h	/^  int allow_diff_short;       \/* allow blocktypes to differ between channels ? *\/$/;"	m	struct:__anon8
+amp_scalefac_bands	quantize.c	/^void amp_scalefac_bands(FLOAT8 xrpow[576], $/;"	f
+analyze	gtkanal.c	/^static void analyze(void)$/;"	f	file:
+approxbits	gtkanal.c	/^  int approxbits;         \/* (approx) bits per frame *\/$/;"	m	struct:gtkinfostruct	file:
+artist	id3tag.h	/^	char artist[31];$/;"	m	struct:__anon9
+avebits	gtkanal.c	/^  double avebits;         \/* running average bits per frame *\/$/;"	m	struct:gtkinfostruct	file:
+avg_bytes_per_sec	get_audio.c	/^	u_long	avg_bytes_per_sec;	 \/* For buffer estimation *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+b	doc/html/switchs.html	/^  <dt><strong>* <kbd>-b<\/kbd><a name="b">&nbsp;&nbsp;&nbsp;&nbsp;bitrate<\/a><\/strong> $/;"	a
+b	rtp.c	/^  struct rtpbits b;$/;"	m	struct:rtpheader	typeref:struct:rtpheader::rtpbits	file:
+b	rtp.h	/^  struct rtpbits b;$/;"	m	struct:rtpheader	typeref:struct:rtpheader::rtpbits
+bCRC	Dll/BladeMP3EncDLL.h	/^			BOOL			bCRC;			\/\/ Insert CRC (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bCRC	Dll/BladeMP3EncDLL.h	/^			BOOL	bCRC;$/;"	m	struct:__anon11::__anon12::__anon13
+bCopyright	Dll/BladeMP3EncDLL.h	/^			BOOL			bCopyright;		\/\/ Set Copyright Bit (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bCopyright	Dll/BladeMP3EncDLL.h	/^			BOOL	bCopyright;$/;"	m	struct:__anon11::__anon12::__anon13
+bEnableVBR	Dll/BladeMP3EncDLL.h	/^			BOOL			bEnableVBR;			\/\/ USE VBR ENCODING (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bFirstFrame	Dll/BladeMP3EncDLL.c	/^static BOOL		bFirstFrame=TRUE;$/;"	v	file:
+bOriginal	Dll/BladeMP3EncDLL.h	/^			BOOL			bOriginal;		\/\/ Set Original Bit (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bOriginal	Dll/BladeMP3EncDLL.h	/^			BOOL	bOriginal;$/;"	m	struct:__anon11::__anon12::__anon13
+bPrivate	Dll/BladeMP3EncDLL.h	/^			BOOL			bPrivate;		\/\/ Set Private Bit (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bPrivate	Dll/BladeMP3EncDLL.h	/^			BOOL	bPrivate;		$/;"	m	struct:__anon11::__anon12::__anon13
+bWriteVBRHeader	Dll/BladeMP3EncDLL.h	/^			BOOL			bWriteVBRHeader;	\/\/ WRITE XING VBR HEADER (TRUE\/FALSE)$/;"	m	struct:__anon11::__anon12::__anon14
+bWriteVbrTag	lame.h	/^  int bWriteVbrTag;           \/* add Xing VBR tag?         *\/$/;"	m	struct:__anon8
+bandInfo	mpglib/layer3.c	/^struct bandInfoStruct bandInfo[9] = { $/;"	v	typeref:struct:bandInfoStruct
+bandInfoStruct	mpglib/layer3.c	/^struct bandInfoStruct {$/;"	s	file:
+best_huffman_divide	takehiro.c	/^void best_huffman_divide(int gr, int ch, gr_info *gi, int *ix)$/;"	f
+best_scalefac_store	takehiro.c	/^void best_scalefac_store(lame_global_flags *gfp,int gr, int ch,$/;"	f
+big_values	gtkanal.h	/^  int big_values[2][2];$/;"	m	struct:__anon7
+big_values	l3side.h	/^	unsigned big_values;$/;"	m	struct:__anon21
+big_values	mpglib/mpg123.h	/^      unsigned big_values;$/;"	m	struct:gr_info_s
+bin_search_StepSize2	quantize-pvt.c	/^bin_search_StepSize2 (lame_global_flags *gfp,int desired_rate, int start, int *ix, $/;"	f
+binsearchDirection_t	quantize-pvt.c	/^} binsearchDirection_t;$/;"	t	typeref:enum:__anon17	file:
+bit_stream_struc	util.h	/^typedef struct  bit_stream_struc {$/;"	s
+bitindex	mpglib/common.c	/^int bitindex;$/;"	v
+bitrate	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+bitrate_index	lame.h	/^  int bitrate_index;$/;"	m	struct:__anon8
+bitrate_index	mpglib/mpg123.h	/^    int bitrate_index;$/;"	m	struct:frame
+bitrate_table	util.c	/^int     bitrate_table[2][15] = {$/;"	v
+bits	util.h	/^    unsigned int    bits;$/;"	m	struct:__anon5
+bits_per_sample	get_audio.c	/^	u_short bits_per_sample;	 \/* for PCM data, anyway... *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+blkAlgn	get_audio.h	/^    blockAlign      blkAlgn;$/;"	m	struct:IFF_AIFF_struct
+blockAlign	get_audio.h	/^} blockAlign;$/;"	t	typeref:struct:blockAlign_struct
+blockAlign_struct	get_audio.h	/^typedef struct  blockAlign_struct {$/;"	s
+blockSize	get_audio.h	/^    unsigned long   blockSize;$/;"	m	struct:blockAlign_struct
+block_align	get_audio.c	/^	u_short block_align;		 \/* Data block size *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+block_type	l3side.h	/^	unsigned block_type;$/;"	m	struct:__anon21
+block_type	mpglib/mpg123.h	/^      unsigned block_type;$/;"	m	struct:gr_info_s
+blocktype	gtkanal.h	/^  int blocktype[2][2];$/;"	m	struct:__anon7
+brate	lame.h	/^  int brate;                      \/* bitrate *\/$/;"	m	struct:__anon8
+break_cleanup	amiga_mpega.c	/^static int break_cleanup(void)$/;"	f	file:
+brhist_add_count	brhist.c	/^void brhist_add_count(void)$/;"	f
+brhist_backcur	brhist.c	/^char brhist_backcur[200];$/;"	v
+brhist_bar	brhist.c	/^char brhist_bar[BRHIST_BARMAX+10];$/;"	v
+brhist_bps	brhist.c	/^char brhist_bps[15][5];$/;"	v
+brhist_count	brhist.c	/^long brhist_count[15];$/;"	v
+brhist_disp	brhist.c	/^void brhist_disp(void)$/;"	f
+brhist_disp_total	brhist.c	/^void brhist_disp_total(lame_global_flags *gfp)$/;"	f
+brhist_init	brhist.c	/^void brhist_init(lame_global_flags *gfp,int br_min, int br_max)$/;"	f
+brhist_max	brhist.c	/^long brhist_max;$/;"	v
+brhist_spc	brhist.c	/^char brhist_spc[BRHIST_BARMAX+1];$/;"	v
+brhist_temp	brhist.c	/^long brhist_temp[15];$/;"	v
+brhist_vbrmax	brhist.c	/^int brhist_vbrmax;$/;"	v
+brhist_vbrmin	brhist.c	/^int brhist_vbrmin;$/;"	v
+bs	l3bitstream.c	/^static Bit_stream_struc *bs = NULL;$/;"	v	file:
+bs	lame.c	/^static Bit_stream_struc   bs;$/;"	v	file:
+bsize	mpglib/mpglib.h	/^	int bsize;$/;"	m	struct:mpstr
+bsnum	mpglib/mpglib.h	/^	int bsnum;$/;"	m	struct:mpstr
+bsspace	mpglib/mpglib.h	/^        unsigned char bsspace[2][MAXFRAMESIZE+512]; \/* MAXFRAMESIZE *\/$/;"	m	struct:mpstr
+btReserved	Dll/BladeMP3EncDLL.h	/^			BYTE			btReserved[255];	\/\/ FUTURE USE, SET TO 0$/;"	m	struct:__anon11::__anon12::__anon14
+buf	mpglib/main.c	/^static char buf[16384];$/;"	v	file:
+buf	mpglib/mpglib.h	/^	struct buf *buf;$/;"	m	struct:framebuf	typeref:struct:framebuf::buf
+buf	mpglib/mpglib.h	/^struct buf {$/;"	s
+buf	util.h	/^    unsigned char *buf;         \/* bit stream buffer *\/$/;"	m	struct:bit_stream_struc
+buf_bit_idx	util.h	/^    int         buf_bit_idx;    \/* pointer to top bit of top byte in buffer *\/$/;"	m	struct:bit_stream_struc
+buf_byte_idx	util.h	/^    int         buf_byte_idx;   \/* pointer to top byte in buffer *\/$/;"	m	struct:bit_stream_struc
+buf_size	util.h	/^    int         buf_size;       \/* size of buffer (in number of bytes) *\/$/;"	m	struct:bit_stream_struc
+byDLLMajorVersion	Dll/BladeMP3EncDLL.h	/^	BYTE	byDLLMajorVersion;$/;"	m	struct:__anon16
+byDLLMinorVersion	Dll/BladeMP3EncDLL.h	/^	BYTE	byDLLMinorVersion;$/;"	m	struct:__anon16
+byDay	Dll/BladeMP3EncDLL.h	/^	BYTE	byDay;$/;"	m	struct:__anon16
+byEncodingMethod	Dll/BladeMP3EncDLL.h	/^			BYTE	byEncodingMethod;$/;"	m	struct:__anon11::__anon12::__anon15
+byMajorVersion	Dll/BladeMP3EncDLL.h	/^	BYTE	byMajorVersion;$/;"	m	struct:__anon16
+byMinorVersion	Dll/BladeMP3EncDLL.h	/^	BYTE	byMinorVersion;$/;"	m	struct:__anon16
+byMode	Dll/BladeMP3EncDLL.h	/^			BYTE	byMode;			\/\/ BE_MP3_MODE_STEREO, BE_MP3_MODE_DUALCHANNEL, BE_MP3_MODE_MONO$/;"	m	struct:__anon11::__anon12::__anon13
+byMode	Dll/BladeMP3EncDLL.h	/^			BYTE	byMode;$/;"	m	struct:__anon11::__anon12::__anon15
+byMonth	Dll/BladeMP3EncDLL.h	/^	BYTE	byMonth;$/;"	m	struct:__anon16
+byte_order	util.h	/^enum byte_order { order_unknown, order_bigEndian, order_littleEndian };$/;"	g
+bytes	VbrTag.h	/^  int		bytes;			\/* total bit stream bytes from Vbr header data*\/$/;"	m	struct:__anon3
+c	doc/html/switchs.html	/^  <dt><strong>* <kbd>-c<\/kbd><a name="c">&nbsp;&nbsp;&nbsp;&nbsp;copyright<\/a><\/strong> $/;"	a
+c_sources	Makefile	/^c_sources = \\$/;"	m
+ca	newmdct.c	/^static FLOAT8 ca[8], cs[8];$/;"	v	file:
+calc_noise1	quantize.c	/^int calc_noise1( FLOAT8 xr[576], int ix[576], gr_info *cod_info,$/;"	f
+calc_sfb_ave_noise	vbrquantize.c	/^FLOAT8 calc_sfb_ave_noise(FLOAT8 *xr, FLOAT8 *xr34, int stride, int bw, FLOAT8 sfpow)$/;"	f
+calc_xmin	quantize-pvt.c	/^int calc_xmin( lame_global_flags *gfp,FLOAT8 xr[576], III_psy_ratio *ratio,$/;"	f
+cb_esc_buf	takehiro.c	/^static int cb_esc_buf[288];$/;"	v	file:
+cb_esc_end	takehiro.c	/^static int *cb_esc_end;$/;"	v	file:
+cb_esc_sign	takehiro.c	/^static int cb_esc_sign;$/;"	v	file:
+cc	rtp.c	/^  int cc:4;	\/* number of CSRC identifiers: 0 *\/$/;"	m	struct:rtpbits	file:
+cc	rtp.h	/^  int cc:4;	\/* number of CSRC identifiers: 0 *\/$/;"	m	struct:rtpbits
+ch	l3side.h	/^			} ch[2];$/;"	m	struct:__anon22::__anon23	typeref:struct:__anon22::__anon23::gr_info_ss
+ch	mpglib/mpg123.h	/^  } ch[2];$/;"	m	struct:III_sideinfo	typeref:struct:III_sideinfo::__anon4
+ch01	fft.c	150;"	d	file:
+ch2	fft.c	151;"	d	file:
+ch3	fft.c	152;"	d	file:
+channelSI	formatBitstream.h	/^    BF_BitstreamPart *channelSI[MAX_CHANNELS];$/;"	m	struct:BF_FrameData
+channelSIPH	formatBitstream.c	/^    BF_PartHolder *channelSIPH[MAX_CHANNELS];$/;"	m	struct:__anon6	file:
+channelSIPH	l3bitstream.c	/^BF_PartHolder *channelSIPH[ MAX_CHANNELS ];$/;"	v
+channel_option	gtkanal.c	/^static void channel_option (GtkWidget *widget, gpointer data)$/;"	f	file:
+channels	get_audio.c	/^	u_short channels;			 \/* Number of channels *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+chap-intro	doc/html/node6.html	/^<A NAME="chap-intro">&#160;<\/A> There is a lot of confusion surrounding the terms $/;"	a
+checkrange	mpglib/mpg123.h	/^	int checkrange;$/;"	m	struct:parameter
+chflag	gtkanal.c	/^  int chflag;             \/* toggle between L & R channels *\/$/;"	m	struct:gtkinfostruct	file:
+choose_table	takehiro.c	/^static int choose_table(int *ix, int *end, int *s)$/;"	f	file:
+choose_table_short	takehiro.c	/^static int choose_table_short(int *ix, int *end, int * s)$/;"	f	file:
+cmdl-examples	doc/html/node7.html	/^<A NAME="cmdl-examples"><\/A> $/;"	a
+codedData	formatBitstream.h	/^    BF_BitstreamPart *codedData[MAX_GRANULES][MAX_CHANNELS];$/;"	m	struct:BF_FrameData
+codedDataPH	l3bitstream.c	/^BF_PartHolder *codedDataPH[ MAX_GRANULES ][ MAX_CHANNELS ];$/;"	v
+comment	id3tag.h	/^	char comment[31];$/;"	m	struct:__anon9
+compute_ath	quantize-pvt.c	/^void compute_ath(lame_global_flags *gfp,FLOAT8 ATH_l[SBPSY_l],FLOAT8 ATH_s[SBPSY_l])$/;"	f
+compute_scalefacs_long	vbrquantize.c	/^FLOAT8 compute_scalefacs_long(FLOAT8 vbrsf[SBPSY_l],gr_info *cod_info,int scalefac[SBPSY_l])$/;"	f
+compute_scalefacs_short	vbrquantize.c	/^FLOAT8 compute_scalefacs_short(FLOAT8 vbrsf[SBPSY_s][3],gr_info *cod_info,int scalefac[SBPSY_s][3])$/;"	f
+configure_event	gpkplotting.c	/^configure_event (GtkWidget *widget, GdkEventConfigure *event, gpointer data)$/;"	f	file:
+convert_mdct	quantize-pvt.c	/^int convert_mdct, reduce_sidechannel;$/;"	v
+copy_buffer	util.c	/^int copy_buffer(char *buffer,int size,Bit_stream_struc *bs)$/;"	f
+copyright	lame.h	/^  int copyright;                  \/* mark as copyright. default=0 *\/$/;"	m	struct:__anon8
+copyright	mpglib/mpg123.h	/^    int copyright;$/;"	m	struct:frame
+cos16	mpglib/tabinit.c	/^static real cos64[16],cos32[8],cos16[4],cos8[2],cos4[1];$/;"	v	file:
+cos32	mpglib/tabinit.c	/^static real cos64[16],cos32[8],cos16[4],cos8[2],cos4[1];$/;"	v	file:
+cos4	mpglib/tabinit.c	/^static real cos64[16],cos32[8],cos16[4],cos8[2],cos4[1];$/;"	v	file:
+cos64	mpglib/tabinit.c	/^static real cos64[16],cos32[8],cos16[4],cos8[2],cos4[1];$/;"	v	file:
+cos8	mpglib/tabinit.c	/^static real cos64[16],cos32[8],cos16[4],cos8[2],cos4[1];$/;"	v	file:
+cos_l	newmdct.c	/^static FLOAT8 cos_l[(NL \/ 2) * 12 + (NL \/ 6) * 4 + (NL \/ 18) * 2];$/;"	v	file:
+cos_s	newmdct.c	/^static FLOAT8 cos_s[NS \/ 2][NS \/ 2];$/;"	v	file:
+costab	fft.c	/^static FLOAT costab[TRI_SIZE*2];$/;"	v	file:
+count1	l3side.h	/^	unsigned count1;$/;"	m	struct:__anon21
+count1bits	l3side.h	/^	unsigned count1bits;$/;"	m	struct:__anon21
+count1table_select	l3side.h	/^	unsigned count1table_select;$/;"	m	struct:__anon21
+count1table_select	mpglib/mpg123.h	/^      unsigned count1table_select;$/;"	m	struct:gr_info_s
+count_bit_ESC	takehiro.c	/^count_bit_ESC(int *ix, int *end, int t1, int t2, int *s)$/;"	f	file:
+count_bit_noESC	takehiro.c	/^count_bit_noESC(int *ix, int *end, unsigned int table) $/;"	f	file:
+count_bit_noESC2	takehiro.c	/^count_bit_noESC2(unsigned int table) $/;"	f	file:
+count_bit_short_ESC	takehiro.c	/^count_bit_short_ESC(int *ix, int *end, int t1, int t2, int *s)$/;"	f	file:
+count_bit_short_noESC	takehiro.c	/^count_bit_short_noESC(int *ix, int *end, unsigned int table) $/;"	f	file:
+count_bits	takehiro.c	/^int count_bits(lame_global_flags *gfp,int *ix, FLOAT8 *xr, gr_info *cod_info)  $/;"	f
+count_bits_long	takehiro.c	/^static int count_bits_long(int ix[576], gr_info *gi)$/;"	f	file:
+count_samples_carefully	get_audio.c	/^static int count_samples_carefully;$/;"	v	file:
+crc	gtkanal.h	/^  int crc,padding;$/;"	m	struct:__anon7
+crc	l3bitstream.c	/^static unsigned int crc = 0; \/* (jo) current crc *\/$/;"	v	file:
+cs	newmdct.c	/^static FLOAT8 ca[8], cs[8];$/;"	v	file:
+cwlimit	lame.h	/^  float cwlimit;                  \/* predictability limit *\/$/;"	m	struct:__anon8
+d	doc/html/switchs.html	/^  <dt><strong>* <kbd>-d<\/kbd><a name="d">&nbsp;&nbsp;&nbsp;&nbsp;block type control<\/a><\/strong> $/;"	a
+d	ieeefloat.c	/^	Double d;$/;"	m	union:DParts	file:
+dct12	mpglib/layer3.c	/^static void dct12(real *in,real *rawout1,real *rawout2,register real *wi,register real *ts)$/;"	f	file:
+dct36	mpglib/layer3.c	/^static void dct36(real *inbuf,real *o1,real *o2,real *wintab,real *tsbuf)$/;"	f	file:
+dct64	mpglib/dct64_i386.c	/^void dct64(real *a,real *b,real *c)$/;"	f
+dct64_1	mpglib/dct64_i386.c	/^static void dct64_1(real *out0,real *out1,real *b1,real *b2,real *samples)$/;"	f	file:
+decodeMP3	mpglib/interface.c	/^int decodeMP3(struct mpstr *mp,char *in,int isize,char *out,$/;"	f
+decode_header	mpglib/common.c	/^int decode_header(struct frame *fr,unsigned long newhead)$/;"	f
+decwin	mpglib/tabinit.c	/^real decwin[512+32];$/;"	v
+defdouble	ieeefloat.h	/^ typedef double defdouble;$/;"	t
+defdouble	ieeefloat.h	/^ typedef long double defdouble;$/;"	t
+delete_event	gtkanal.c	/^static void delete_event( GtkWidget *widget,$/;"	f	file:
+desalloc_buffer	util.c	/^void desalloc_buffer(Bit_stream_struc *bs)   \/* bit stream structure *\/$/;"	f
+disable_reservoir	lame.h	/^  int disable_reservoir;          \/* use bit reservoir? *\/$/;"	m	struct:__anon8
+disp_brhist	brhist.c	/^int disp_brhist = 1;$/;"	v
+display_bitrates	util.c	/^void display_bitrates(FILE *out_fh)$/;"	f
+do_layer3	mpglib/layer3.c	/^int do_layer3(struct frame *fr,unsigned char *pcm_sample,int *pcm_point)$/;"	f
+drain_into_ancillary_data	l3bitstream.c	/^drain_into_ancillary_data( int lengthInBits )$/;"	f	file:
+dump_config	Dll/BladeMP3EncDLL.c	/^void dump_config( char *inPath, char *outPath)$/;"	f
+dwBitrate	Dll/BladeMP3EncDLL.h	/^			DWORD			dwBitrate;		\/\/ CBR bitrate, VBR min bitrate$/;"	m	struct:__anon11::__anon12::__anon14
+dwConfig	Dll/BladeMP3EncDLL.h	/^	DWORD	dwConfig;			\/\/ BE_CONFIG_XXXXX$/;"	m	struct:__anon11
+dwEmphasis	Dll/BladeMP3EncDLL.h	/^			DWORD			dwEmphasis;		\/\/ FUTURE USE, SET TO 0$/;"	m	struct:__anon11::__anon12::__anon14
+dwMaxBitrate	Dll/BladeMP3EncDLL.h	/^			DWORD			dwMaxBitrate;	\/\/ CBR ignored, VBR Max bitrate$/;"	m	struct:__anon11::__anon12::__anon14
+dwMpegVersion	Dll/BladeMP3EncDLL.h	/^			DWORD			dwMpegVersion;	\/\/ MPEG-1 OR MPEG-2$/;"	m	struct:__anon11::__anon12::__anon14
+dwPsyModel	Dll/BladeMP3EncDLL.h	/^			DWORD			dwPsyModel;		\/\/ FUTURE USE, SET TO 0$/;"	m	struct:__anon11::__anon12::__anon14
+dwReSampleRate	Dll/BladeMP3EncDLL.h	/^			DWORD			dwReSampleRate;	\/\/ DOWNSAMPLERATE, 0=ENCODER DECIDES  $/;"	m	struct:__anon11::__anon12::__anon14
+dwSampleBufferSize	Dll/BladeMP3EncDLL.c	/^static DWORD	dwSampleBufferSize=0;$/;"	v	file:
+dwSampleRate	Dll/BladeMP3EncDLL.h	/^			DWORD			dwSampleRate;	\/\/ ALLOWED SAMPLERATE VALUES DEPENDS ON dwMPEGVersion $/;"	m	struct:__anon11::__anon12::__anon14
+dwSampleRate	Dll/BladeMP3EncDLL.h	/^			DWORD	dwSampleRate;	\/\/ 48000, 44100 and 32000 allowed$/;"	m	struct:__anon11::__anon12::__anon13
+dwSampleRate	Dll/BladeMP3EncDLL.h	/^			DWORD	dwSampleRate;$/;"	m	struct:__anon11::__anon12::__anon15
+dwStructSize	Dll/BladeMP3EncDLL.h	/^			DWORD			dwStructSize;$/;"	m	struct:__anon11::__anon12::__anon14
+dwStructVersion	Dll/BladeMP3EncDLL.h	/^			DWORD			dwStructVersion;	$/;"	m	struct:__anon11::__anon12::__anon14
+e	doc/html/switchs.html	/^    <strong>* <kbd>-e n\/5\/c<\/kbd><a name="e">&nbsp;&nbsp;&nbsp;&nbsp;de-emphasis<\/a><\/strong> $/;"	a
+e	ieeefloat.c	/^	defdouble e;$/;"	m	union:EParts	file:
+element	formatBitstream.h	/^    BF_BitstreamElement *element;$/;"	m	struct:__anon2
+elements	formatBitstream.c	/^static int elements, forwardFrameLength, forwardSILength; $/;"	v	file:
+emph	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+emphasis	lame.h	/^  int emphasis;                   \/* obsolete *\/$/;"	m	struct:__anon8
+emphasis	mpglib/mpg123.h	/^    int emphasis;$/;"	m	struct:frame
+empty_buffer	util.c	/^void empty_buffer(Bit_stream_struc *bs)$/;"	f
+en	gtkanal.h	/^  double en[2][4][SBMAX_l];$/;"	m	struct:__anon7
+en	l3side.h	/^    III_psy_xmin en;$/;"	m	struct:__anon20
+en_s	gtkanal.h	/^  double en_s[2][4][3*SBMAX_s];$/;"	m	struct:__anon7
+encodeMainData	l3bitstream.c	/^encodeMainData( lame_global_flags *gfp,$/;"	f	file:
+encodeSideInfo	l3bitstream.c	/^static int encodeSideInfo( lame_global_flags *gfp,III_side_info_t  *si )$/;"	f	file:
+encoder_delay	lame.h	/^  int encoder_delay;$/;"	m	struct:__anon8
+enerbox	gtkanal.c	/^GtkWidget *enerbox[2];   \/* spectrum, gr=0,1 plotted here *\/$/;"	v
+energy	gtkanal.h	/^  double energy[2][4][BLKSIZE];$/;"	m	struct:__anon7
+enwindow	newmdct.c	/^static FLOAT8 enwindow[] = $/;"	v	file:
+error_protection	lame.h	/^  int error_protection;           \/* use 2 bytes per frame for a CRC checksum. default=0*\/$/;"	m	struct:__anon8
+error_protection	mpglib/mpg123.h	/^    int error_protection;$/;"	m	struct:frame
+ers	gtkanal.h	/^  double ers[2][4];$/;"	m	struct:__anon7
+estimated	timestatus.c	/^  FLOAT estimated;$/;"	m	struct:ts_times	file:
+eta	timestatus.c	/^  FLOAT eta;$/;"	m	struct:ts_times	file:
+exit_cleanup	amiga_mpega.c	/^static void exit_cleanup(void)$/;"	f	file:
+experimentalX	lame.h	/^  int experimentalX;            $/;"	m	struct:__anon8
+experimentalY	lame.h	/^  int experimentalY;$/;"	m	struct:__anon8
+experimentalZ	lame.h	/^  int experimentalZ;$/;"	m	struct:__anon8
+expose_event	gpkplotting.c	/^expose_event (GtkWidget *widget, GdkEventExpose *event, gpointer data)$/;"	f	file:
+extension	lame.h	/^  int extension;                  \/* the MP3 'private extension' bit.  meaningless *\/$/;"	m	struct:__anon8
+extension	mpglib/mpg123.h	/^    int extension;$/;"	m	struct:frame
+f	doc/html/switchs.html	/^    <strong>* <kbd>-f<\/kbd><a name="f">&nbsp;&nbsp;&nbsp;&nbsp;fast mode<\/a><\/strong> $/;"	a
+fft_long	fft.c	/^void fft_long($/;"	f
+fft_short	fft.c	/^void fft_short($/;"	f
+fht	fft.c	/^static INLINE void fht(FLOAT *fz, short n)$/;"	f	file:
+filetype	gtkanal.c	/^  int filetype;           \/* input file type 0=WAV, 1=MP3 *\/$/;"	m	struct:gtkinfostruct	file:
+fill_buffer	lame.c	/^int fill_buffer(lame_global_flags *gfp,short int *outbuf,int desired_len,short int *inbuf,int len) {$/;"	f
+fill_buffer_resample	lame.c	/^int fill_buffer_resample(lame_global_flags *gfp,short int *outbuf,int desired_len,$/;"	f
+filter_type	lame.h	/^  int filter_type;          \/* 0=polyphase filter, 1= FIR filter 2=MDCT filter(bad)*\/$/;"	m	struct:__anon8
+find_scalefac	vbrquantize.c	/^FLOAT8 find_scalefac(FLOAT8 *xr,FLOAT8 *xr34,int stride,int sfb,$/;"	f
+findpixmap	gpkplotting.c	/^static GdkPixmap **findpixmap(GtkWidget *widget)$/;"	f	file:
+flag123	gtkanal.c	/^  int flag123;            \/* show mpg123 frame info, OR ISO encoder frame info *\/$/;"	m	struct:gtkinfostruct	file:
+flags	VbrTag.h	/^  int		flags;			\/* from Vbr header data *\/$/;"	m	struct:__anon3
+fmt_chunk_data	get_audio.c	/^} fmt_chunk_data;$/;"	t	typeref:struct:fmt_chunk_data_struct	file:
+fmt_chunk_data_struct	get_audio.c	/^typedef struct fmt_chunk_data_struct {$/;"	s	file:
+force_ms	lame.h	/^  int force_ms;                   \/* force M\/S mode.  requires mode=1 *\/$/;"	m	struct:__anon8
+format	Dll/BladeMP3EncDLL.h	/^	} format;$/;"	m	struct:__anon11	typeref:union:__anon11::__anon12
+format_tag	get_audio.c	/^	short	format_tag;			 \/* Format category *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+forwardFrameLength	formatBitstream.c	/^static int elements, forwardFrameLength, forwardSILength; $/;"	v	file:
+forwardSILength	formatBitstream.c	/^static int elements, forwardFrameLength, forwardSILength; $/;"	v	file:
+fr	mpglib/mpglib.h	/^	struct frame fr;$/;"	m	struct:mpstr	typeref:struct:mpstr::frame
+frame	mpglib/mpg123.h	/^struct frame {$/;"	s
+frameData	l3bitstream.c	/^BF_FrameData    *frameData    = NULL;$/;"	v
+frameLength	formatBitstream.c	/^    int frameLength;$/;"	m	struct:__anon6	file:
+frameLength	formatBitstream.h	/^    int              frameLength;$/;"	m	struct:BF_FrameData
+frameNum	gtkanal.h	/^  int frameNum;           \/* current frame number *\/$/;"	m	struct:__anon7
+frameNum	lame.h	/^  long int frameNum;              \/* frame counter *\/$/;"	m	struct:__anon8
+frameNum123	gtkanal.h	/^  int frameNum123;$/;"	m	struct:__anon7
+frameResults	l3bitstream.c	/^BF_FrameResults *frameResults = NULL;$/;"	v
+frameSI	formatBitstream.h	/^    BF_BitstreamPart *frameSI;$/;"	m	struct:BF_FrameData
+frameSIPH	formatBitstream.c	/^    BF_PartHolder *frameSIPH;$/;"	m	struct:__anon6	file:
+frameSIPH	l3bitstream.c	/^BF_PartHolder *frameSIPH;$/;"	v
+frameadv	gtkanal.c	/^static void frameadv( GtkWidget *widget, gpointer   data )$/;"	f	file:
+frameadv1	gtkanal.c	/^static int frameadv1(GtkWidget *widget, gpointer   data )$/;"	f	file:
+framebuf	mpglib/mpglib.h	/^struct framebuf {$/;"	s
+framecounter	gtkanal.c	/^static GtkWidget *framecounter;  \/* progress counter *\/ $/;"	v	file:
+frameprogress	gtkanal.c	/^static GtkWidget *frameprogress; \/* progress bar *\/ $/;"	v	file:
+frames	VbrTag.h	/^  int		frames;			\/* total bit stream frames from Vbr header data *\/$/;"	m	struct:__anon3
+framesize	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+framesize	lame.h	/^  int framesize;                  $/;"	m	struct:__anon8
+framesize	mpglib/mpg123.h	/^    int framesize; \/* computed framesize *\/$/;"	m	struct:frame
+framesize	mpglib/mpglib.h	/^	int framesize;$/;"	m	struct:mpstr
+frametime	gtkanal.h	/^  double frametime;       \/* starting time of frame, in seconds *\/$/;"	m	struct:__anon7
+free_side_info_link	formatBitstream.c	/^free_side_info_link( side_info_link *l )$/;"	f	file:
+free_side_queues	formatBitstream.c	/^free_side_queues(void)$/;"	f	file:
+freqs	mpglib/common.c	/^long freqs[9] = { 44100, 48000, 32000,$/;"	v
+fsizeold	mpglib/mpglib.h	/^        int fsizeold;$/;"	m	struct:mpstr
+fskip	get_audio.c	/^int fskip(FILE *sf,long num_bytes,int dummy)$/;"	f
+full_gain	mpglib/mpg123.h	/^      real *full_gain[3];$/;"	m	struct:gr_info_s
+g_Position	VbrTag.c	/^static long g_Position[NUMTOCENTRIES];$/;"	v	file:
+gainpow2	mpglib/layer3.c	/^static real gainpow2[256+118+4];$/;"	v	file:
+genre	id3tag.h	/^	char genre[1];$/;"	m	struct:__anon9
+genre_last	id3tag.c	/^int genre_last=147;$/;"	v
+genre_list	id3tag.c	/^char *genre_list[]={$/;"	v
+get1bit	mpglib/layer3.c	/^static unsigned int get1bit(void)$/;"	f	file:
+get_audio	get_audio.c	/^int get_audio(lame_global_flags *gfp,short buffer[2][1152],int stereo)$/;"	f
+get_lame_version	version.c	/^char* get_lame_version(void)$/;"	f
+get_main_menu	gtkanal.c	/^static void get_main_menu(GtkWidget *window, GtkWidget ** menubar) {$/;"	f	file:
+get_mp3x_version	version.c	/^char* get_mp3x_version(void)$/;"	f
+get_psy_version	version.c	/^char* get_psy_version(void)$/;"	f
+get_side_info	formatBitstream.c	/^get_side_info(void)$/;"	f	file:
+getbits	mpglib/common.c	/^unsigned int getbits(int number_of_bits)$/;"	f
+getbits_fast	mpglib/common.c	/^unsigned int getbits_fast(int number_of_bits)$/;"	f
+getframebits	util.c	/^void getframebits(lame_global_flags *gfp,int *bitsPerFrame, int *mean_bits) {$/;"	f
+gf	Dll/BladeMP3EncDLL.c	/^lame_global_flags gf;$/;"	v
+gfp	gtkanal.c	/^static lame_global_flags *gfp;$/;"	v	file:
+global_gain	l3side.h	/^ 	unsigned global_gain;$/;"	m	struct:__anon21
+gmp	mpglib/interface.c	/^struct mpstr *gmp;$/;"	v	typeref:struct:mpstr
+gpk_bargraph_draw	gpkplotting.c	/^void gpk_bargraph_draw(GtkWidget *widget,           \/* plot on this widged *\/$/;"	f
+gpk_graph_draw	gpkplotting.c	/^void gpk_graph_draw(GtkWidget *widget,               \/* plot on this widged *\/$/;"	f
+gpk_plot_new	gpkplotting.c	/^GtkWidget *gpk_plot_new(int width, int height)$/;"	f
+gpk_rectangle_draw	gpkplotting.c	/^void gpk_rectangle_draw(GtkWidget *widget,              \/* plot on this widged *\/$/;"	f
+gpk_redraw	gpkplotting.c	/^void gpk_redraw(GdkPixmap *pixmap, GtkWidget *pixmapbox)$/;"	f
+gr	l3side.h	/^		} gr[2];$/;"	m	struct:__anon22	typeref:struct:__anon22::__anon23
+gr	mpglib/mpg123.h	/^    struct gr_info_s gr[2];$/;"	m	struct:III_sideinfo::__anon4	typeref:struct:III_sideinfo::__anon4::gr_info_s
+gr_info	l3side.h	/^} gr_info;$/;"	t	typeref:struct:__anon21
+gr_info_s	mpglib/mpg123.h	/^struct gr_info_s {$/;"	s
+gr_info_ss	l3side.h	/^		struct gr_info_ss {$/;"	s	struct:__anon22::__anon23
+group	util.h	/^    unsigned int    group;$/;"	m	struct:__anon5
+gs_pSndFileIn	get_audio.c	/^static SNDFILE*	gs_pSndFileIn=NULL;$/;"	v	file:
+gs_wfInfo	get_audio.c	/^static SF_INFO	gs_wfInfo;$/;"	v	file:
+gtkcontrol	gtkanal.c	/^int gtkcontrol(lame_global_flags *gfp2)$/;"	f
+gtkflag	gtkanal.c	/^int gtkflag;$/;"	v
+gtkflag	lame.h	/^  int gtkflag;                \/* run frame analyzer?       *\/$/;"	m	struct:__anon8
+gtkinfo	gtkanal.c	/^} gtkinfo;$/;"	v	typeref:struct:gtkinfostruct
+gtkinfostruct	gtkanal.c	/^struct gtkinfostruct {$/;"	s	file:
+gtkmakeframe	gtkanal.c	/^int gtkmakeframe(void)$/;"	f
+h	doc/html/switchs.html	/^    <strong>* <kbd>-h<\/kbd><a name="h">&nbsp;&nbsp;&nbsp;&nbsp;high quality<\/a><\/strong> $/;"	a
+h_id	VbrTag.h	/^  int		h_id;			\/* from MPEG header, 0=MPEG2, 1=MPEG1 *\/$/;"	m	struct:__anon3
+head	mpglib/mpglib.h	/^	struct buf *head,*tail;$/;"	m	struct:mpstr	typeref:struct:mpstr::buf
+header	formatBitstream.h	/^    BF_BitstreamPart *header;$/;"	m	struct:BF_FrameData
+header	mpglib/mpglib.h	/^	unsigned long header;$/;"	m	struct:mpstr
+headerPH	formatBitstream.c	/^    BF_PartHolder *headerPH;$/;"	m	struct:__anon6	file:
+headerPH	l3bitstream.c	/^BF_PartHolder *headerPH;$/;"	v
+header_change	mpglib/mpg123.h	/^    int header_change;$/;"	m	struct:frame
+headerbox	gtkanal.c	/^GtkWidget *headerbox;    \/* mpg123 header info shown here *\/$/;"	v
+highpass1	lame.h	/^  float highpass1,highpass2;      \/* normalized frequency bounds of passband *\/$/;"	m	struct:__anon8
+highpass2	lame.h	/^  float highpass1,highpass2;      \/* normalized frequency bounds of passband *\/$/;"	m	struct:__anon8
+highpass_band	lame.h	/^  int highpass_band;         \/* zero bands <= highpass_band *\/$/;"	m	struct:__anon8
+highpassfreq	lame.h	/^  int highpassfreq;               \/* freq in Hz. 0=lame choses. -1=no filter *\/$/;"	m	struct:__anon8
+highpasswidth	lame.h	/^  int highpasswidth;              \/* freq width of filter, in Hz (default=15%)*\/$/;"	m	struct:__anon8
+hlen	tables.h	/^  unsigned char *hlen;	\/*pointer to array[xlen][ylen]		*\/$/;"	m	struct:huffcodetab
+hs	tables.c	/^unsigned int hs = sizeof(HUFFBITS)*8;$/;"	v
+ht	mpglib/huffman.h	/^static struct newhuff ht[] = $/;"	v	typeref:struct:newhuff
+ht	tables.c	/^struct huffcodetab ht[HTN] =$/;"	v	typeref:struct:huffcodetab
+htc	mpglib/huffman.h	/^static struct newhuff htc[] = $/;"	v	typeref:struct:newhuff
+huf_tbl_noESC	takehiro.c	/^static const int huf_tbl_noESC[15] = {$/;"	v	file:
+huffcodetab	tables.h	/^struct huffcodetab {$/;"	s
+hybrid_blc	mpglib/mpglib.h	/^	int hybrid_blc[2];$/;"	m	struct:mpstr
+hybrid_block	mpglib/mpglib.h	/^	real hybrid_block[2][2][SBLIMIT*SSLIMIT];$/;"	m	struct:mpstr
+i	ieeefloat.c	/^	long i;$/;"	m	union:SParts	file:
+i	ieeefloat.c	/^	long i[2];$/;"	m	union:DParts	file:
+i	ieeefloat.c	/^	short i[6];$/;"	m	union:EParts	file:
+iAudioHeader	rtp.c	/^  int iAudioHeader;	\/* =0?! *\/$/;"	m	struct:rtpheader	file:
+iAudioHeader	rtp.h	/^  int iAudioHeader;	\/* =0?! *\/$/;"	m	struct:rtpheader
+i_slen2	mpglib/layer3.c	/^static unsigned int i_slen2[256]; \/* MPEG 2.0 slen for intensity stereo *\/$/;"	v	file:
+i_stereo	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+id3_buildtag	id3tag.c	/^void id3_buildtag(ID3TAGDATA *tag) {$/;"	f
+id3_inittag	id3tag.c	/^void id3_inittag(ID3TAGDATA *tag) {$/;"	f
+id3_pad	id3tag.c	/^static void id3_pad(char *string, int length) {$/;"	f	file:
+id3_writetag	id3tag.c	/^int id3_writetag(char* filename, ID3TAGDATA *tag) {$/;"	f
+id3tag	id3tag.c	/^ID3TAGDATA id3tag;$/;"	v
+idle_back	gtkanal.c	/^static gint idle_back = 0;     \/* set when we are displaying the old data *\/$/;"	v	file:
+idle_count	gtkanal.c	/^static gint idle_count;       \/* pause & plot when idle_count=idel_count_max *\/$/;"	v	file:
+idle_count_max	gtkanal.c	/^static gint idle_count_max;   \/* number of frames to process before plotting *\/$/;"	v	file:
+idle_end	gtkanal.c	/^static gint idle_end=0;      \/* process all frames, stop at last frame  *\/$/;"	v	file:
+idle_keepgoing	gtkanal.c	/^static gint idle_keepgoing;        \/* processing of frames is ON *\/$/;"	v	file:
+inPath	lame.h	/^  char *inPath;               \/* name of input file *\/$/;"	m	struct:__anon8
+inPath	parse.c	/^  char    inPath[MAX_NAME_SIZE];$/;"	v
+in_samplerate	lame.h	/^  int in_samplerate;          \/* input_samp_rate. default=44.1kHz     *\/$/;"	m	struct:__anon8
+init_bit_stream_w	util.c	/^void init_bit_stream_w(Bit_stream_struc* bs)$/;"	f
+init_fft	fft.c	/^void init_fft(void)$/;"	f
+init_layer3	mpglib/layer3.c	/^void init_layer3(int down_sample_sblimit)$/;"	f
+init_outer_loop	quantize.c	/^int init_outer_loop(lame_global_flags *gfp,$/;"	f
+initrtp	rtp.c	/^void initrtp(struct rtpheader *foo) {$/;"	f
+inner_loop	quantize-pvt.c	/^inner_loop( lame_global_flags *gfp,FLOAT8 xrpow[576],$/;"	f
+input_bitrate	get_audio.c	/^static int input_bitrate;$/;"	v	file:
+input_format	lame.h	/^  sound_file_format input_format;   $/;"	m	struct:__anon8
+intwinbase	mpglib/tabinit.c	/^static long intwinbase[] = {$/;"	v	file:
+ipow20	quantize-pvt.c	/^FLOAT8 ipow20[Q_MAX];$/;"	v
+is_syncword	mpglib/main.c	/^int is_syncword(char *header)$/;"	f
+ispow	mpglib/layer3.c	/^static real ispow[8207];$/;"	v	file:
+iteration_init	quantize-pvt.c	/^iteration_init( lame_global_flags *gfp,III_side_info_t *l3_side, int l3_enc[2][2][576])$/;"	f
+iteration_loop	quantize.c	/^iteration_loop( lame_global_flags *gfp,$/;"	f
+ix_max	takehiro.c	/^ static int ix_max(int *ix, int *end)$/;"	f	file:
+js	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+jsbound	mpglib/mpg123.h	/^    int jsbound;$/;"	m	struct:frame
+k	doc/html/switchs.html	/^    <strong>* <kbd>-k<\/kbd><a name="k">&nbsp;&nbsp;&nbsp;&nbsp;full bandwidth<\/a><\/strong> $/;"	a
+kDoubleLength	ieeefloat.h	75;"	d
+kExtendedLength	ieeefloat.h	76;"	d
+kFloatLength	ieeefloat.h	74;"	d
+kbflag	gtkanal.c	/^  int kbflag;             \/* toggle between wave # and barks *\/$/;"	m	struct:gtkinfostruct	file:
+key_press_event	gtkanal.c	/^static gint key_press_event (GtkWidget *widget, GdkEventKey *event)$/;"	f	file:
+l	l3side.h	/^	FLOAT8	l[SBPSY_l + 1];$/;"	m	struct:__anon19
+l	l3side.h	/^	int l[SBMAX_l];            \/* [cb] *\/$/;"	m	struct:__anon24
+l	quantize-pvt.h	/^   int l[1+SBMAX_l];$/;"	m	struct:scalefac_struct
+l3_side	lame.c	/^static III_side_info_t l3_side;$/;"	v	file:
+lame_close_infile	get_audio.c	/^void lame_close_infile(lame_global_flags *gfp)$/;"	f
+lame_decode	mpglib/main.c	/^int lame_decode(char *buf,int len,short pcm_l[],short pcm_r[])$/;"	f
+lame_decode_fromfile	amiga_mpega.c	/^int lame_decode_fromfile(FILE *fd, short pcm_l[],short pcm_r[])$/;"	f
+lame_decode_fromfile	mpglib/main.c	/^int lame_decode_fromfile(FILE *fd, short pcm_l[], short pcm_r[])$/;"	f
+lame_decode_init	mpglib/main.c	/^int lame_decode_init(void)$/;"	f
+lame_decode_initfile	amiga_mpega.c	/^int lame_decode_initfile(const char *fullname, int *stereo, int *samp, int *bitrate, unsigned long *nsamp)$/;"	f
+lame_decode_initfile	mpglib/main.c	/^int lame_decode_initfile(FILE *fd, int *stereo, int *samp, int *bitrate, $/;"	f
+lame_encode	lame.c	/^int lame_encode(lame_global_flags *gfp, short int in_buffer[2][1152],char *mp3buf,int size){$/;"	f
+lame_encode_buffer	lame.c	/^int lame_encode_buffer(lame_global_flags *gfp,$/;"	f
+lame_encode_buffer_interleaved	lame.c	/^int lame_encode_buffer_interleaved(lame_global_flags *gfp,$/;"	f
+lame_encode_finish	lame.c	/^int lame_encode_finish(lame_global_flags *gfp,char *mp3buffer, int mp3buffer_size)$/;"	f
+lame_encode_frame	lame.c	/^int lame_encode_frame(lame_global_flags *gfp,$/;"	f
+lame_global_flags	lame.h	/^} lame_global_flags;$/;"	t	typeref:struct:__anon8
+lame_help	parse.c	/^void lame_help(lame_global_flags *gfp,char *name)  \/* print syntax & exit *\/$/;"	f
+lame_init	lame.c	/^void lame_init(lame_global_flags *gfp)$/;"	f
+lame_init_infile	get_audio.c	/^void lame_init_infile(lame_global_flags *gfp)$/;"	f
+lame_init_params	lame.c	/^void lame_init_params(lame_global_flags *gfp)$/;"	f
+lame_mp3_tags	lame.c	/^void lame_mp3_tags(lame_global_flags *gfp)$/;"	f
+lame_parse_args	parse.c	/^void lame_parse_args(lame_global_flags *gfp,int argc, char **argv)$/;"	f
+lame_presets_info	parse.c	/^void lame_presets_info(lame_global_flags *gfp,char *name)  \/* print syntax & exit *\/$/;"	f
+lame_print_config	lame.c	/^void lame_print_config(lame_global_flags *gfp)$/;"	f
+lame_print_version	version.c	/^void lame_print_version(FILE *ofile) {$/;"	f
+lame_readframe	get_audio.c	/^int lame_readframe(lame_global_flags *gfp,short int Buffer[2][1152])$/;"	f
+lame_usage	parse.c	/^void lame_usage(lame_global_flags *gfp,char *name)  \/* print syntax & exit *\/$/;"	f
+lame_version	lame.c	/^void lame_version(lame_global_flags *gfp,char *ostring) {$/;"	f
+lay	mpglib/mpg123.h	/^    int lay;$/;"	m	struct:frame
+length	formatBitstream.h	/^    u_short length;$/;"	m	struct:__anon1
+linbits	mpglib/huffman.h	/^  unsigned int linbits;$/;"	m	struct:newhuff
+linmax	tables.h	/^  unsigned int linmax;	\/*max number to be stored in linbits	*\/$/;"	m	struct:huffcodetab
+longDiff	mpglib/layer3.c	/^  short longDiff[22];$/;"	m	struct:bandInfoStruct	file:
+longIdx	mpglib/layer3.c	/^  short longIdx[23];$/;"	m	struct:bandInfoStruct	file:
+longLimit	mpglib/layer3.c	/^int longLimit[9][23];$/;"	v
+loop_break	quantize-pvt.c	/^int loop_break( III_scalefac_t *scalefac, gr_info *cod_info)$/;"	f
+lowpass1	lame.h	/^  float lowpass1,lowpass2;        \/* normalized frequency bounds of passband *\/$/;"	m	struct:__anon8
+lowpass2	lame.h	/^  float lowpass1,lowpass2;        \/* normalized frequency bounds of passband *\/$/;"	m	struct:__anon8
+lowpass_band	lame.h	/^  int lowpass_band;          \/* zero bands >= lowpass_band in the polyphase filterbank *\/$/;"	m	struct:__anon8
+lowpassfreq	lame.h	/^  int lowpassfreq;                \/* freq in Hz. 0=lame choses. -1=no filter *\/$/;"	m	struct:__anon8
+lowpasswidth	lame.h	/^  int lowpasswidth;               \/* freq width of filter, in Hz (default=15%)*\/$/;"	m	struct:__anon8
+lpszVersion	version.c	/^static char lpszVersion[80];$/;"	v	file:
+lsf	mpglib/mpg123.h	/^    int lsf;$/;"	m	struct:frame
+m	doc/html/switchs.html	/^    <strong>* <kbd>-m s\/<b>j\/<\/b>f\/m<\/kbd><a name="m">&nbsp;&nbsp;&nbsp;&nbsp;stereo $/;"	a
+m	rtp.c	/^  int m:1;	\/* marker: 0 *\/$/;"	m	struct:rtpbits	file:
+m	rtp.h	/^  int m:1;	\/* marker: 0 *\/$/;"	m	struct:rtpbits
+main	ieeefloat.c	/^main(void)$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+main	mp3rtp.c	/^int main(int argc, char **argv)$/;"	f
+main	mp3x.c	/^int main(int argc, char **argv)$/;"	f
+mainDataLength	formatBitstream.h	/^    int mainDataLength;$/;"	m	struct:BF_FrameResults
+main_data	formatBitstream.c	/^main_data( BF_FrameData *fi, BF_FrameResults *results )$/;"	f	file:
+main_data_begin	l3side.h	/^	int main_data_begin; \/* unsigned -> int *\/$/;"	m	struct:__anon22
+main_data_begin	mpglib/mpg123.h	/^  unsigned main_data_begin;$/;"	m	struct:III_sideinfo
+mainbits	gtkanal.h	/^  int mainbits[2][2];$/;"	m	struct:__anon7
+maindata	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+make_decode_tables	mpglib/tabinit.c	/^void make_decode_tables(long scaleval)$/;"	f
+makesocket	rtp.c	/^int makesocket(char *szAddr,unsigned short port,int TTL,struct sockaddr_in *sSockAddr) {$/;"	f
+map	mpglib/layer3.c	/^static int *map[9][3];$/;"	v	file:
+mapbuf0	mpglib/layer3.c	/^static int mapbuf0[9][152];$/;"	v	file:
+mapbuf1	mpglib/layer3.c	/^static int mapbuf1[9][156];$/;"	v	file:
+mapbuf2	mpglib/layer3.c	/^static int mapbuf2[9][44];$/;"	v	file:
+mapend	mpglib/layer3.c	/^static int *mapend[9][3];$/;"	v	file:
+masking_lower	quantize-pvt.c	/^FLOAT masking_lower=1;$/;"	v
+max_elements	formatBitstream.h	/^    int              max_elements;$/;"	m	struct:BF_PartHolder
+max_noise	gtkanal.h	/^  double max_noise[2][2];$/;"	m	struct:__anon7
+max_plotwindows	gpkplotting.c	/^static gint max_plotwindows = 10;$/;"	v	file:
+max_range_sfac_tab	quantize-pvt.c	/^static unsigned max_range_sfac_tab[6][4] =$/;"	v	file:
+maxb	mpglib/mpg123.h	/^      unsigned maxb;$/;"	m	struct:gr_info_s
+maxband	mpglib/mpg123.h	/^      unsigned maxband[3];$/;"	m	struct:gr_info_s
+maxbandl	mpglib/mpg123.h	/^      unsigned maxbandl;$/;"	m	struct:gr_info_s
+maxbits	gtkanal.c	/^  int maxbits;            \/* max bits per frame used so far*\/$/;"	m	struct:gtkinfostruct	file:
+maximum	quantize.h	63;"	d
+mctrl	amiga_mpega.c	/^MPEGA_CTRL      mctrl;$/;"	v
+mdct_init48	newmdct.c	/^void mdct_init48(void)$/;"	f
+mdct_long	newmdct.c	/^static void mdct_long(FLOAT8 *out, FLOAT8 *in)$/;"	f	file:
+mdct_short	newmdct.c	/^static void mdct_short(FLOAT8 *out, FLOAT8 *in)$/;"	f	file:
+mdct_sub48	newmdct.c	/^void mdct_sub48(lame_global_flags *gfp,$/;"	f
+mdctbox	gtkanal.c	/^GtkWidget *mdctbox[2];   \/* mdct coefficients gr=0,1 plotted here *\/$/;"	v
+mean_bits	gtkanal.h	/^  int scfsi[2],mean_bits,resvsize;$/;"	m	struct:__anon7
+mem_alloc	util.c	/^void  *mem_alloc(unsigned long block, char *item)$/;"	f
+menu_items	gtkanal.c	/^static GtkItemFactoryEntry menu_items[] = {$/;"	v	file:
+mf_samples_to_encode	lame.c	/^static int mf_samples_to_encode;$/;"	v	file:
+mf_size	lame.c	/^static int mf_size;$/;"	v	file:
+mfbuf	lame.c	/^static short int mfbuf[2][MFSIZE];$/;"	v	file:
+minimum	quantize.h	64;"	d
+mixed	gtkanal.h	/^  int mixed[2][2];$/;"	m	struct:__anon7
+mixed_block_flag	l3side.h	/^	unsigned mixed_block_flag;$/;"	m	struct:__anon21
+mixed_block_flag	mpglib/mpg123.h	/^      unsigned mixed_block_flag;$/;"	m	struct:gr_info_s
+ml00	fft.c	154;"	d	file:
+ml01	fft.c	159;"	d	file:
+ml10	fft.c	155;"	d	file:
+ml11	fft.c	160;"	d	file:
+ml20	fft.c	156;"	d	file:
+ml21	fft.c	161;"	d	file:
+ml30	fft.c	157;"	d	file:
+ml31	fft.c	162;"	d	file:
+mm	newmdct.c	/^static FLOAT8 mm[16][SBLIMIT - 1];$/;"	v	file:
+mode	lame.h	/^  int mode;                       \/* 0,1,2,3 stereo,jstereo,dual channel,mono *\/$/;"	m	struct:__anon8
+mode	mpglib/mpg123.h	/^    int mode;$/;"	m	struct:frame
+mode_ext	lame.h	/^  int mode_ext;$/;"	m	struct:__anon8
+mode_ext	mpglib/mpg123.h	/^    int mode_ext;$/;"	m	struct:frame
+mode_fixed	lame.h	/^  int mode_fixed;                 \/* use specified the mode, do not use lame's opinion of the best mode *\/$/;"	m	struct:__anon8
+mode_gr	lame.h	/^  int mode_gr;                    \/* granules per frame *\/$/;"	m	struct:__anon8
+mp	mpglib/main.c	/^struct mpstr mp;$/;"	v	typeref:struct:mpstr
+mp3	Dll/BladeMP3EncDLL.h	/^			} mp3;					\/\/ BE_CONFIG_MP3$/;"	m	union:__anon11::__anon12	typeref:struct:__anon11::__anon12::__anon13
+mp3buffer	mp3rtp.c	/^char mp3buffer[LAME_MAXMP3BUFFER];$/;"	v
+mp3done	gtkanal.c	/^static int mp3done = 0;         \/* last frame has been read *\/$/;"	v	file:
+mpeg25	mpglib/mpg123.h	/^    int mpeg25;$/;"	m	struct:frame
+mpg123blocktype	gtkanal.h	/^  int mpg123blocktype[2][2];$/;"	m	struct:__anon7
+mpg123xr	gtkanal.h	/^  double mpg123xr[2][2][576];$/;"	m	struct:__anon7
+mpstr	mpglib/mpglib.h	/^struct mpstr {$/;"	s
+ms00	fft.c	164;"	d	file:
+ms01	fft.c	169;"	d	file:
+ms10	fft.c	165;"	d	file:
+ms11	fft.c	170;"	d	file:
+ms20	fft.c	166;"	d	file:
+ms21	fft.c	171;"	d	file:
+ms30	fft.c	167;"	d	file:
+ms31	fft.c	172;"	d	file:
+ms_convert	quantize-pvt.c	/^void ms_convert(FLOAT8 xr[2][576],FLOAT8 xr_org[2][576])$/;"	f
+ms_ener_ratio	gtkanal.h	/^  double ms_ener_ratio[2];$/;"	m	struct:__anon7
+ms_ratio	gtkanal.h	/^  double ms_ratio[2];$/;"	m	struct:__anon7
+ms_stereo	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+msflag	gtkanal.c	/^  int msflag;             \/* toggle between L&R vs M&S PCM data display *\/$/;"	m	struct:gtkinfostruct	file:
+mstream	amiga_mpega.c	/^MPEGA_STREAM    *mstream=NULL;$/;"	v
+musicin	get_audio.c	/^static FILE *musicin=NULL;  \/* input file pointer *\/$/;"	v	file:
+nChannels	formatBitstream.c	/^    int nChannels;$/;"	m	struct:__anon6	file:
+nChannels	formatBitstream.h	/^    int              nChannels;$/;"	m	struct:BF_FrameData
+nGranules	formatBitstream.c	/^    int nGranules;$/;"	m	struct:__anon6	file:
+nGranules	formatBitstream.h	/^    int              nGranules;$/;"	m	struct:BF_FrameData
+nMode	Dll/BladeMP3EncDLL.h	/^			INT				nMode;			\/\/ BE_MP3_MODE_STEREO, BE_MP3_MODE_DUALCHANNEL, BE_MP3_MODE_MONO$/;"	m	struct:__anon11::__anon12::__anon14
+nOutBufPos	util.h	/^    int 			nOutBufPos;  \/* for .DLL code *\/$/;"	m	struct:bit_stream_struc
+nPsychoModel	Dll/BladeMP3EncDLL.c	/^static int		nPsychoModel=2;$/;"	v	file:
+nQuality	Dll/BladeMP3EncDLL.h	/^			MPEG_QUALITY	nQuality;		\/\/ Quality setting (NORMAL,HIGH,LOW,VOICE)$/;"	m	struct:__anon11::__anon12::__anon14
+nVBRQuality	Dll/BladeMP3EncDLL.h	/^			INT				nVBRQuality;		\/\/ VBR QUALITY 0..9$/;"	m	struct:__anon11::__anon12::__anon14
+nVbrFrameBufferSize	VbrTag.c	/^int nVbrFrameBufferSize=0;$/;"	v
+nVbrNumFrames	VbrTag.c	/^int nVbrNumFrames=0;$/;"	v
+nZeroStreamSize	VbrTag.c	/^static int nZeroStreamSize=0;$/;"	v	file:
+n_slen2	mpglib/layer3.c	/^static unsigned int n_slen2[512]; \/* MPEG 2.0 slen for 'normal' mode *\/$/;"	v	file:
+newhuff	mpglib/huffman.h	/^struct newhuff $/;"	s
+next	formatBitstream.c	/^    struct side_info_link *next;$/;"	m	struct:side_info_link	typeref:struct:side_info_link::side_info_link	file:
+next	mpglib/mpglib.h	/^	struct frame *next;$/;"	m	struct:framebuf	typeref:struct:framebuf::frame
+next	mpglib/mpglib.h	/^        struct buf *next;$/;"	m	struct:buf	typeref:struct:buf::buf
+nextBackPtr	formatBitstream.h	/^    int nextBackPtr;$/;"	m	struct:BF_FrameResults
+noATH	lame.h	/^  int noATH;                      \/* disable ATH *\/$/;"	m	struct:__anon8
+no_short_blocks	lame.h	/^  int no_short_blocks;        \/* disable short blocks       *\/$/;"	m	struct:__anon8
+noise_shaping	lame.h	/^  int noise_shaping;        \/* 0 = none $/;"	m	struct:__anon8
+noise_shaping_stop	lame.h	/^  int noise_shaping_stop;   \/* 0 = stop at over=0, all scalefacs amplified or$/;"	m	struct:__anon8
+nrEntries	formatBitstream.h	/^    u_int              nrEntries;$/;"	m	struct:__anon2
+nr_of_sfb_block	quantize-pvt.c	/^unsigned nr_of_sfb_block[6][3][4] =$/;"	v
+numChannels	get_audio.h	/^    short           numChannels;$/;"	m	struct:IFF_AIFF_struct
+numSampleFrames	get_audio.h	/^    unsigned long   numSampleFrames;$/;"	m	struct:IFF_AIFF_struct
+num_channels	get_audio.c	/^static int num_channels;$/;"	v	file:
+num_channels	lame.h	/^  int num_channels;           \/* input number of channels. default=2  *\/$/;"	m	struct:__anon8
+num_plotwindows	gpkplotting.c	/^static gint num_plotwindows = 0;$/;"	v	file:
+num_samples	get_audio.c	/^static unsigned long num_samples;$/;"	v	file:
+num_samples	gtkanal.h	/^  int num_samples;        \/* number of pcm samples read for this frame *\/$/;"	m	struct:__anon7
+num_samples	lame.h	/^  unsigned long num_samples;  \/* number of samples. default=2^32-1    *\/$/;"	m	struct:__anon8
+o	doc/html/switchs.html	/^  <dt><strong>* <kbd>-o<\/kbd><a name="o">&nbsp;&nbsp;&nbsp;&nbsp;non-original<\/a><\/strong> $/;"	a
+offset	get_audio.h	/^    unsigned long   offset;$/;"	m	struct:blockAlign_struct
+on_pe	quantize-pvt.c	/^void on_pe(lame_global_flags *gfp,FLOAT8 pe[2][2],III_side_info_t *l3_side,$/;"	f
+order_bigEndian	util.h	/^enum byte_order { order_unknown, order_bigEndian, order_littleEndian };$/;"	e	enum:byte_order
+order_littleEndian	util.h	/^enum byte_order { order_unknown, order_bigEndian, order_littleEndian };$/;"	e	enum:byte_order
+order_unknown	util.h	/^enum byte_order { order_unknown, order_bigEndian, order_littleEndian };$/;"	e	enum:byte_order
+original	lame.h	/^  int original;                   \/* mark as original. default=1 *\/$/;"	m	struct:__anon8
+original	mpglib/mpg123.h	/^    int original;$/;"	m	struct:frame
+out	mpglib/main.c	/^static char out[FSIZE];$/;"	v	file:
+outPath	lame.h	/^  char *outPath;              \/* name of output file. *\/$/;"	m	struct:__anon8
+outPath	parse.c	/^  char    outPath[MAX_NAME_SIZE];$/;"	v
+out_samplerate	lame.h	/^  int out_samplerate;         \/* output_samp_rate. (usually determined automatically)   *\/ $/;"	m	struct:__anon8
+outer_loop	quantize.c	/^void outer_loop($/;"	f
+over	gtkanal.h	/^  int over[2][2];$/;"	m	struct:__anon7
+over_noise	gtkanal.h	/^  double over_noise[2][2];$/;"	m	struct:__anon7
+p	doc/html/switchs.html	/^    <strong>* <kbd>-p<\/kbd><a name="p">&nbsp;&nbsp;&nbsp;&nbsp;error protection<\/a><\/strong><\/dt>$/;"	a
+p	rtp.c	/^  int p:1;	\/* is there padding appended: 0 *\/$/;"	m	struct:rtpbits	file:
+p	rtp.h	/^  int p:1;	\/* is there padding appended: 0 *\/$/;"	m	struct:rtpbits
+pVbrFrames	VbrTag.c	/^int* pVbrFrames=NULL;$/;"	v
+padding	gtkanal.h	/^  int crc,padding;$/;"	m	struct:__anon7
+padding	lame.h	/^  int padding;                    \/* padding for the current frame? *\/$/;"	m	struct:__anon8
+padding	mpglib/mpg123.h	/^    int padding;$/;"	m	struct:frame
+padding_type	lame.h	/^  int padding_type;               \/* 0=no padding, 1=always pad, 2=adjust padding *\/$/;"	m	struct:__anon8
+param	mpglib/common.c	/^struct parameter param = { 1 , 1 , 0 , 0 };$/;"	v	typeref:struct:parameter
+parameter	mpglib/mpg123.h	/^struct parameter {$/;"	s
+parse_aiff_header	get_audio.c	/^parse_aiff_header(FILE *sf)$/;"	f	file:
+parse_file_header	get_audio.c	/^void parse_file_header(lame_global_flags *gfp,FILE *sf)$/;"	f
+parse_wave_header	get_audio.c	/^parse_wave_header(FILE *sf)$/;"	f	file:
+part	formatBitstream.h	/^    BF_BitstreamPart *part;$/;"	m	struct:BF_PartHolder
+part2_3_length	l3side.h	/^	unsigned part2_3_length;$/;"	m	struct:__anon21
+part2_3_length	mpglib/mpg123.h	/^      unsigned part2_3_length;$/;"	m	struct:gr_info_s
+part2_length	l3side.h	/^	unsigned part2_length;$/;"	m	struct:__anon21
+pbtOutBuf	util.h	/^    unsigned char*		pbtOutBuf;   \/* for .DLL code *\/$/;"	m	struct:bit_stream_struc
+pbtStreamBuffer	VbrTag.c	/^static u_char pbtStreamBuffer[216];   $/;"	v	file:
+pcm_point	mpglib/common.c	/^int pcm_point = 0;$/;"	v
+pcm_sample	mpglib/common.c	/^unsigned char *pcm_sample;$/;"	v
+pcmbox	gtkanal.c	/^GtkWidget *pcmbox;       \/* PCM data plotted here *\/$/;"	v
+pcmdata	gtkanal.h	/^  double pcmdata[2][1600];$/;"	m	struct:__anon7
+pcmdata2	gtkanal.h	/^  double pcmdata2[2][1152+1152-DECDELAY];$/;"	m	struct:__anon7
+pe	gtkanal.h	/^  double pe[2][4];$/;"	m	struct:__anon7
+pinfo	gtkanal.c	/^plotting_data *pinfo,*pplot;$/;"	v
+pixmapboxes	gpkplotting.c	/^static GtkWidget *pixmapboxes[10];$/;"	v	file:
+pixmaps	gpkplotting.c	/^static GdkPixmap *pixmaps[10];$/;"	v	file:
+plot_frame	gtkanal.c	/^void plot_frame(void)$/;"	f
+plotclick	gtkanal.c	/^static void plotclick( GtkWidget *widget, gpointer   data )$/;"	f	file:
+plotting_data	gtkanal.h	/^} plotting_data;$/;"	t	typeref:struct:__anon7
+pnt	mpglib/mpglib.h	/^        unsigned char *pnt;$/;"	m	struct:buf
+pnts	mpglib/tabinit.c	/^real *pnts[] = { cos64,cos32,cos16,cos8,cos4 };$/;"	v
+pos	mpglib/mpglib.h	/^	long pos;$/;"	m	struct:buf
+pos	mpglib/mpglib.h	/^	long pos;$/;"	m	struct:framebuf
+pow1_1	mpglib/layer3.c	/^static real pow1_1[2][16],pow2_1[2][16],pow1_2[2][16],pow2_2[2][16];$/;"	v	file:
+pow1_2	mpglib/layer3.c	/^static real pow1_1[2][16],pow2_1[2][16],pow1_2[2][16],pow2_2[2][16];$/;"	v	file:
+pow20	quantize-pvt.c	/^FLOAT8 pow20[Q_MAX];$/;"	v
+pow2_1	mpglib/layer3.c	/^static real pow1_1[2][16],pow2_1[2][16],pow1_2[2][16],pow2_2[2][16];$/;"	v	file:
+pow2_2	mpglib/layer3.c	/^static real pow1_1[2][16],pow2_1[2][16],pow1_2[2][16],pow2_2[2][16];$/;"	v	file:
+pow2gain	mpglib/mpg123.h	/^      real *pow2gain;$/;"	m	struct:gr_info_s
+pow43	quantize-pvt.c	/^FLOAT8 pow43[PRECALC_SIZE];$/;"	v
+pplot	gtkanal.c	/^plotting_data *pinfo,*pplot;$/;"	v
+preflag	l3side.h	/^	unsigned preflag;$/;"	m	struct:__anon21
+preflag	mpglib/mpg123.h	/^      unsigned preflag;$/;"	m	struct:gr_info_s
+pretab	quantize-pvt.c	/^int  pretab[21] =$/;"	v
+pretab1	mpglib/layer3.c	/^static int pretab1[22] = {0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,3,3,3,2,0};$/;"	v	file:
+pretab2	mpglib/layer3.c	/^static int pretab2[22] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};$/;"	v	file:
+prev	mpglib/mpglib.h	/^	struct frame *prev;$/;"	m	struct:framebuf	typeref:struct:framebuf::frame
+prev	mpglib/mpglib.h	/^        struct buf *prev;$/;"	m	struct:buf	typeref:struct:buf::buf
+print_header	mpglib/common.c	/^void print_header(struct frame *fr)$/;"	f
+print_header_compact	mpglib/common.c	/^void print_header_compact(struct frame *fr)$/;"	f
+private_bits	l3side.h	/^	unsigned private_bits;$/;"	m	struct:__anon22
+private_bits	mpglib/mpg123.h	/^  unsigned private_bits;$/;"	m	struct:III_sideinfo
+psy_data	tables.c	/^FLOAT8 psy_data[] =$/;"	v
+psymodel	lame.h	/^  int psymodel;             \/* 0 = none   1=gpsycho *\/$/;"	m	struct:__anon8
+pt	rtp.c	/^  int pt:7;	\/* payload type: 14 for MPEG audio *\/$/;"	m	struct:rtpbits	file:
+pt	rtp.h	/^  int pt:7;	\/* payload type: 14 for MPEG audio *\/$/;"	m	struct:rtpbits
+pt	util.h	/^    FILE        *pt;            \/* pointer to bit stream device *\/$/;"	m	struct:bit_stream_struc
+pupdate	gtkanal.c	/^  int pupdate;            \/* plot while processing, or only when needed *\/$/;"	m	struct:gtkinfostruct	file:
+putMyBits	l3bitstream.c	/^void putMyBits( u_int val, u_int len )$/;"	f
+putbits	util.c	/^void putbits($/;"	f
+putmask	util.c	/^int putmask[9]={0x0, 0x1, 0x3, 0x7, 0xf, 0x1f, 0x3f, 0x7f, 0xff};$/;"	v
+qss	gtkanal.h	/^  int qss[2][2];$/;"	m	struct:__anon7
+quality	lame.h	/^  int quality;                \/* quality setting 0=best,  9=worst  *\/$/;"	m	struct:__anon8
+quant	util.h	/^    unsigned int    quant;$/;"	m	struct:__anon5
+quant_compare	quantize.c	/^int quant_compare(int experimentalX,$/;"	f
+quantization	lame.h	/^  int quantization;         \/* 0 = ISO formual,  1=best amplitude *\/$/;"	m	struct:__anon8
+quantize_xrpow	quantize-pvt.c	/^void quantize_xrpow(FLOAT8 xr[576], int ix[576], gr_info *cod_info) {$/;"	f
+quantize_xrpow_ISO	quantize-pvt.c	/^void quantize_xrpow_ISO( FLOAT8 xr[576], int ix[576], gr_info *cod_info )$/;"	f
+quiet	mpglib/mpg123.h	/^	int quiet;	\/* shut up! *\/$/;"	m	struct:parameter
+r	doc/html/switchs.html	/^    <strong>* <kbd>-r<\/kbd><a name="r">&nbsp;&nbsp;&nbsp;&nbsp;input file is raw $/;"	a
+random	mpglib/mpg123.h	21;"	d
+read_buf_byte	mpglib/interface.c	/^static int read_buf_byte(struct mpstr *mp)$/;"	f	file:
+read_head	mpglib/interface.c	/^static void read_head(struct mpstr *mp)$/;"	f	file:
+read_samples_mp3	get_audio.c	/^int read_samples_mp3(lame_global_flags *gfp,FILE *musicin,short int mpg123pcm[2][1152],int stereo)$/;"	f
+read_samples_pcm	get_audio.c	/^int read_samples_pcm(lame_global_flags *gfp,short sample_buffer[2304], int frame_size,int samples_to_read)$/;"	f
+read_samples_pcm	get_audio.c	/^int read_samples_pcm(lame_global_flags *gfp,short sample_buffer[2304],int frame_size,int samples_to_read)$/;"	f
+real	mpglib/mpg123.h	27;"	d
+real	mpglib/mpg123.h	29;"	d
+real	mpglib/mpg123.h	31;"	d
+reduce_side	quantize-pvt.c	/^void reduce_side(int targ_bits[2],FLOAT8 ms_ener_ratio,int mean_bits)$/;"	f
+reduce_sidechannel	quantize-pvt.c	/^int convert_mdct, reduce_sidechannel;$/;"	v
+region0_count	l3side.h	/^	unsigned region0_count;$/;"	m	struct:__anon21
+region0_count	takehiro.c	/^    unsigned region0_count;$/;"	m	struct:__anon18	file:
+region1_count	l3side.h	/^	unsigned region1_count;$/;"	m	struct:__anon21
+region1_count	takehiro.c	/^    unsigned region1_count;$/;"	m	struct:__anon18	file:
+region1start	mpglib/mpg123.h	/^      unsigned region1start;$/;"	m	struct:gr_info_s
+region2start	mpglib/mpg123.h	/^      unsigned region2start;$/;"	m	struct:gr_info_s
+remove_buf	mpglib/interface.c	/^static void remove_buf(struct mpstr *mp)$/;"	f	file:
+resample_ratio	lame.h	/^  float resample_ratio;           \/* input_samp_rate\/output_samp_rate *\/$/;"	m	struct:__anon8
+resvDrain	l3side.h	/^	int resvDrain;$/;"	m	struct:__anon22
+resvsize	gtkanal.h	/^  int scfsi[2],mean_bits,resvsize;$/;"	m	struct:__anon7
+rpelev	psymodel.c	286;"	d	file:
+rpelev2	psymodel.c	287;"	d	file:
+rtp_output	mp3rtp.c	/^void rtp_output(char *mp3buffer,int mp3size)$/;"	f
+rtp_usage	mp3rtp.c	/^void rtp_usage(void) {$/;"	f
+rtpbits	rtp.c	/^struct rtpbits {$/;"	s	file:
+rtpbits	rtp.h	/^struct rtpbits {$/;"	s
+rtpheader	rtp.c	/^struct rtpheader {	\/* in network byte order *\/$/;"	s	file:
+rtpheader	rtp.h	/^struct rtpheader {      \/* in network byte order *\/$/;"	s
+rtpsi	mp3rtp.c	/^struct sockaddr_in rtpsi;$/;"	v	typeref:struct:sockaddr_in
+rtpsocket	mp3rtp.c	/^int rtpsocket;$/;"	v
+rv_tbl	fft.c	/^static const short rv_tbl[] = {$/;"	v	file:
+s	doc/html/switchs.html	/^  <dt><strong>* <kbd>-s 16\/22.05\/24\/32\/44.1\/48<\/kbd><a name="s">&nbsp;&nbsp;&nbsp;&nbsp;sampling $/;"	a
+s	ieeefloat.c	/^	Single s;$/;"	m	union:SParts	file:
+s	l3side.h	/^	FLOAT8	s[SBPSY_s + 1][3];$/;"	m	struct:__anon19
+s	l3side.h	/^	int s[SBMAX_s][3];         \/* [window][cb] *\/$/;"	m	struct:__anon24
+s	quantize-pvt.h	/^   int s[1+SBMAX_s];$/;"	m	struct:scalefac_struct
+s_freq_table	util.c	/^FLOAT8  s_freq_table[2][4] = {{22.05, 24, 16, 0}, {44.1, 48, 32, 0}};$/;"	v
+samp_freq	get_audio.c	/^static int samp_freq;$/;"	v	file:
+sampfreq	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+sampleRate	get_audio.h	/^    FLOAT           sampleRate;$/;"	m	struct:IFF_AIFF_struct
+sampleSize	get_audio.h	/^    short           sampleSize;$/;"	m	struct:IFF_AIFF_struct
+sampleType	get_audio.h	/^    unsigned long   sampleType;$/;"	m	struct:IFF_AIFF_struct
+samplerate_index	lame.h	/^  int samplerate_index;$/;"	m	struct:__anon8
+samples_per_sec	get_audio.c	/^	u_long	samples_per_sec;	 \/* Sampling rate *\/$/;"	m	struct:fmt_chunk_data_struct	file:
+sampling_frequency	mpglib/mpg123.h	/^    int sampling_frequency;$/;"	m	struct:frame
+samprate	VbrTag.h	/^  int		samprate;		\/* determined from MPEG header *\/$/;"	m	struct:__anon3
+sb_alloc	util.h	/^} sb_alloc, *alloc_ptr;$/;"	t	typeref:struct:__anon5
+sb_sample	newmdct.c	/^static FLOAT8 sb_sample[2][2][18][SBLIMIT];$/;"	v	file:
+scaleFactors	formatBitstream.h	/^    BF_BitstreamPart *scaleFactors[MAX_GRANULES][MAX_CHANNELS];$/;"	m	struct:BF_FrameData
+scaleFactorsPH	l3bitstream.c	/^BF_PartHolder *scaleFactorsPH[ MAX_GRANULES ][ MAX_CHANNELS ];$/;"	v
+scale_bitcount	quantize-pvt.c	/^int scale_bitcount( III_scalefac_t *scalefac, gr_info *cod_info)$/;"	f
+scale_bitcount_lsf	quantize-pvt.c	/^int scale_bitcount_lsf(III_scalefac_t *scalefac, gr_info *cod_info)$/;"	f
+scalefac_band	quantize-pvt.c	/^struct scalefac_struct scalefac_band;$/;"	v	typeref:struct:scalefac_struct
+scalefac_compress	l3side.h	/^	unsigned scalefac_compress;$/;"	m	struct:__anon21
+scalefac_compress	mpglib/mpg123.h	/^      unsigned scalefac_compress;$/;"	m	struct:gr_info_s
+scalefac_scale	gtkanal.h	/^  int scalefac_scale[2][2];$/;"	m	struct:__anon7
+scalefac_scale	l3side.h	/^	unsigned scalefac_scale;$/;"	m	struct:__anon21
+scalefac_scale	mpglib/mpg123.h	/^      unsigned scalefac_scale;$/;"	m	struct:gr_info_s
+scalefac_struct	quantize-pvt.h	/^struct scalefac_struct$/;"	s
+scfsi	gtkanal.h	/^  int scfsi[2],mean_bits,resvsize;$/;"	m	struct:__anon7
+scfsi	l3side.h	/^	unsigned scfsi[2][4];$/;"	m	struct:__anon22
+scfsi	mpglib/mpg123.h	/^      int scfsi;$/;"	m	struct:gr_info_s
+scfsi_calc	takehiro.c	/^scfsi_calc(int ch,$/;"	f	file:
+sendrtp	rtp.c	/^int sendrtp(int fd, struct sockaddr_in *sSockAddr, struct rtpheader *foo, void *data, int len) {$/;"	f
+sequence	rtp.c	/^  int sequence:16;	\/* sequence number: random *\/$/;"	m	struct:rtpbits	file:
+sequence	rtp.h	/^  int sequence:16;	\/* sequence number: random *\/$/;"	m	struct:rtpbits
+set_masking_lower	quantize.c	/^set_masking_lower (int VBR_q,int nbits)$/;"	f
+set_pinfo	quantize.c	/^set_pinfo ($/;"	f
+set_pointer	mpglib/interface.c	/^int set_pointer(long backstep)$/;"	f
+setcolor	gpkplotting.c	/^void setcolor(GtkWidget *widget, GdkColor *color, gint red,gint green,gint blue)$/;"	f
+sfBandIndex	quantize-pvt.c	/^struct scalefac_struct sfBandIndex[6] =$/;"	v	typeref:struct:scalefac_struct
+sf_aiff	lame.h	/^	sf_unknown, sf_wave, sf_aiff, sf_mp3, sf_raw$/;"	e	enum:sound_file_format_e
+sf_mp3	lame.h	/^	sf_unknown, sf_wave, sf_aiff, sf_mp3, sf_raw$/;"	e	enum:sound_file_format_e
+sf_raw	lame.h	/^	sf_unknown, sf_wave, sf_aiff, sf_mp3, sf_raw$/;"	e	enum:sound_file_format_e
+sf_unknown	lame.h	/^	sf_unknown, sf_wave, sf_aiff, sf_mp3, sf_raw$/;"	e	enum:sound_file_format_e
+sf_wave	lame.h	/^	sf_unknown, sf_wave, sf_aiff, sf_mp3, sf_raw$/;"	e	enum:sound_file_format_e
+sfb	gtkanal.h	/^  double sfb[2][2][SBMAX_l];$/;"	m	struct:__anon7
+sfb_lmax	l3side.h	/^	unsigned sfb_lmax;$/;"	m	struct:__anon21
+sfb_partition_table	l3side.h	/^	unsigned *sfb_partition_table;$/;"	m	struct:__anon21
+sfb_s	gtkanal.h	/^  double sfb_s[2][2][3*SBMAX_s];$/;"	m	struct:__anon7
+sfb_smax	l3side.h	/^	unsigned sfb_smax;$/;"	m	struct:__anon21
+sfbbox	gtkanal.c	/^GtkWidget *sfbbox[2];    \/* scalefactors gr=0,1 plotted here *\/$/;"	v
+sfblines	gtkanal.c	/^  int sfblines;           \/* plot scalefactor bands in MDCT plot *\/$/;"	m	struct:gtkinfostruct	file:
+shortDiff	mpglib/layer3.c	/^  short shortDiff[13];$/;"	m	struct:bandInfoStruct	file:
+shortIdx	mpglib/layer3.c	/^  short shortIdx[14];$/;"	m	struct:bandInfoStruct	file:
+shortLimit	mpglib/layer3.c	/^int shortLimit[9][14];$/;"	v
+side_info	formatBitstream.c	/^    MYSideInfo           side_info;$/;"	m	struct:side_info_link	file:
+side_info_link	formatBitstream.c	/^typedef struct side_info_link$/;"	s	file:
+side_info_link	formatBitstream.c	/^} side_info_link;$/;"	t	typeref:struct:side_info_link	file:
+side_queue_elements	formatBitstream.c	/^side_queue_elements( int *frameLength, int *SILength )$/;"	f	file:
+side_queue_free	formatBitstream.c	/^static struct side_info_link *side_queue_free   = NULL;$/;"	v	typeref:struct:side_info_link	file:
+side_queue_head	formatBitstream.c	/^static struct side_info_link *side_queue_head   = NULL;$/;"	v	typeref:struct:side_info_link	file:
+signum	quantize.h	65;"	d
+silent	lame.h	/^  int silent;                 \/* disable some status output *\/$/;"	m	struct:__anon8
+single	mpglib/mpg123.h	/^    int single;$/;"	m	struct:frame
+size	mpglib/mpglib.h	/^	long size;$/;"	m	struct:buf
+slen	l3side.h	/^	unsigned slen[4];$/;"	m	struct:__anon21
+slen1_tab	l3bitstream.c	/^static unsigned slen1_tab[16] = { 0, 0, 0, 0, 3, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4 };$/;"	v	file:
+slen2_tab	l3bitstream.c	/^static unsigned slen2_tab[16] = { 0, 1, 2, 3, 0, 1, 2, 3, 1, 2, 3, 1, 2, 3, 2, 3 };$/;"	v	file:
+so_far	timestatus.c	/^  FLOAT so_far;$/;"	m	struct:ts_times	file:
+sound_file_format	lame.h	/^} sound_file_format;$/;"	t	typeref:enum:sound_file_format_e
+sound_file_format_e	lame.h	/^typedef enum sound_file_format_e {$/;"	g
+spec_option	gtkanal.c	/^static void spec_option (GtkWidget *widget, gpointer data)$/;"	f	file:
+spectrumSI	formatBitstream.h	/^    BF_BitstreamPart *spectrumSI[MAX_GRANULES][MAX_CHANNELS];$/;"	m	struct:BF_FrameData
+spectrumSIPH	formatBitstream.c	/^    BF_PartHolder *spectrumSIPH[MAX_GRANULES][MAX_CHANNELS];$/;"	m	struct:__anon6	file:
+spectrumSIPH	l3bitstream.c	/^BF_PartHolder *spectrumSIPH[ MAX_GRANULES ][ MAX_CHANNELS ];$/;"	v
+speed	timestatus.c	/^  FLOAT speed;$/;"	m	struct:ts_times	file:
+srandom	mpglib/mpg123.h	22;"	d
+ssrc	rtp.c	/^  int ssrc;		\/* random *\/$/;"	m	struct:rtpheader	file:
+ssrc	rtp.h	/^  int ssrc;             \/* random *\/$/;"	m	struct:rtpheader
+stderr_buff	brhist.c	/^char stderr_buff[BUFSIZ];$/;"	v
+steps	util.h	/^    unsigned int    steps;$/;"	m	struct:__anon5
+stereo	gtkanal.h	/^  int framesize,stereo,js,ms_stereo,i_stereo,emph,bitrate,sampfreq,maindata;$/;"	m	struct:__anon7
+stereo	lame.h	/^  int stereo;                     \/* number of channels *\/$/;"	m	struct:__anon8
+stereo	mpglib/mpg123.h	/^    int stereo;$/;"	m	struct:frame
+store_side_info	formatBitstream.c	/^store_side_info( BF_FrameData *info )$/;"	f	file:
+sub_gain	gtkanal.h	/^  int sub_gain[2][2][3];$/;"	m	struct:__anon7
+subblock_draw	gtkanal.c	/^static int subblock_draw[3] = { 1, 1, 1 };$/;"	v	file:
+subblock_gain	l3side.h	/^int \/*	unsigned *\/ subblock_gain[3];$/;"	m	struct:__anon21
+subblock_gain	mpglib/mpg123.h	/^      unsigned subblock_gain[3];$/;"	m	struct:gr_info_s
+subdv_table	takehiro.c	/^} subdv_table[ 23 ] =$/;"	v	typeref:struct:__anon18
+swapbytes	lame.h	/^  int swapbytes;              \/* force byte swapping   default=0*\/$/;"	m	struct:__anon8
+synth_1to1	mpglib/decode_i386.c	/^int synth_1to1(real *bandPtr,int channel,unsigned char *out,int *pnt)$/;"	f
+synth_1to1_mono	mpglib/decode_i386.c	/^int synth_1to1_mono(real *bandPtr,unsigned char *samples,int *pnt)$/;"	f
+synth_bo	mpglib/mpglib.h	/^        int  synth_bo;$/;"	m	struct:mpstr
+synth_buffs	mpglib/mpglib.h	/^	real synth_buffs[2][2][0x110];$/;"	m	struct:mpstr
+t	doc/html/switchs.html	/^    <strong>* <kbd>-t<\/kbd><a name="t">&nbsp;&nbsp;&nbsp;&nbsp;disable VBR tag<\/a><\/strong><\/dt>$/;"	a
+t10HB	tables.c	/^static HUFFBITS      t10HB[]   = {$/;"	v	file:
+t10l	tables.c	/^static unsigned char t10l[]  = {$/;"	v	file:
+t11HB	tables.c	/^static HUFFBITS      t11HB[]   = {$/;"	v	file:
+t11l	tables.c	/^static unsigned char t11l[]  = {$/;"	v	file:
+t12HB	tables.c	/^static HUFFBITS      t12HB[]   = {$/;"	v	file:
+t12l	tables.c	/^static unsigned char t12l[]  = {$/;"	v	file:
+t13HB	tables.c	/^static HUFFBITS      t13HB[]   = {$/;"	v	file:
+t13l	tables.c	/^static unsigned char t13l[]  = {$/;"	v	file:
+t15HB	tables.c	/^static HUFFBITS      t15HB[]   = {$/;"	v	file:
+t15l	tables.c	/^static unsigned char t15l[]  = {$/;"	v	file:
+t16HB	tables.c	/^static HUFFBITS      t16HB[]   = {$/;"	v	file:
+t16l	tables.c	/^static unsigned char t16l[]  = {$/;"	v	file:
+t1HB	tables.c	/^static HUFFBITS      t1HB[]   = {$/;"	v	file:
+t1l	tables.c	/^static unsigned char t1l[]  = {$/;"	v	file:
+t24HB	tables.c	/^static HUFFBITS      t24HB[]   = {$/;"	v	file:
+t24l	tables.c	/^static unsigned char t24l[]  = {$/;"	v	file:
+t2HB	tables.c	/^static HUFFBITS      t2HB[]   = {$/;"	v	file:
+t2l	tables.c	/^static unsigned char t2l[]  = {$/;"	v	file:
+t32HB	tables.c	/^static HUFFBITS      t32HB[]   = {$/;"	v	file:
+t32l	tables.c	/^static unsigned char t32l[]  = {$/;"	v	file:
+t33HB	tables.c	/^static HUFFBITS      t33HB[]   = {$/;"	v	file:
+t33l	tables.c	/^static unsigned char t33l[]  = {$/;"	v	file:
+t3HB	tables.c	/^static HUFFBITS      t3HB[]   = {$/;"	v	file:
+t3l	tables.c	/^static unsigned char t3l[]  = {$/;"	v	file:
+t5HB	tables.c	/^static HUFFBITS      t5HB[]   = {$/;"	v	file:
+t5l	tables.c	/^static unsigned char t5l[]  = {$/;"	v	file:
+t6HB	tables.c	/^static HUFFBITS      t6HB[]   = {$/;"	v	file:
+t6l	tables.c	/^static unsigned char t6l[]  = {$/;"	v	file:
+t7HB	tables.c	/^static HUFFBITS      t7HB[]   = {$/;"	v	file:
+t7l	tables.c	/^static unsigned char t7l[]  = {$/;"	v	file:
+t8HB	tables.c	/^static HUFFBITS      t8HB[]   = {$/;"	v	file:
+t8l	tables.c	/^static unsigned char t8l[]  = {$/;"	v	file:
+t9HB	tables.c	/^static HUFFBITS      t9HB[]   = {$/;"	v	file:
+t9l	tables.c	/^static unsigned char t9l[]  = {$/;"	v	file:
+tab0	mpglib/huffman.h	/^static short tab0[] = $/;"	v
+tab1	mpglib/huffman.h	/^static short tab1[] =$/;"	v
+tab10	mpglib/huffman.h	/^static short tab10[] =$/;"	v
+tab11	mpglib/huffman.h	/^static short tab11[] =$/;"	v
+tab12	mpglib/huffman.h	/^static short tab12[] =$/;"	v
+tab13	mpglib/huffman.h	/^static short tab13[] =$/;"	v
+tab15	mpglib/huffman.h	/^static short tab15[] =$/;"	v
+tab16	mpglib/huffman.h	/^static short tab16[] =$/;"	v
+tab2	mpglib/huffman.h	/^static short tab2[] =$/;"	v
+tab24	mpglib/huffman.h	/^static short tab24[] =$/;"	v
+tab3	mpglib/huffman.h	/^static short tab3[] =$/;"	v
+tab5	mpglib/huffman.h	/^static short tab5[] =$/;"	v
+tab6	mpglib/huffman.h	/^static short tab6[] =$/;"	v
+tab7	mpglib/huffman.h	/^static short tab7[] =$/;"	v
+tab8	mpglib/huffman.h	/^static short tab8[] =$/;"	v
+tab9	mpglib/huffman.h	/^static short tab9[] =$/;"	v
+tab_c0	mpglib/huffman.h	/^static short tab_c0[] =$/;"	v
+tab_c1	mpglib/huffman.h	/^static short tab_c1[] =$/;"	v
+table	mpglib/huffman.h	/^  short *table;$/;"	m	struct:newhuff
+table	tables.h	/^  HUFFBITS *table;	\/*pointer to array[xlen][ylen]		*\/$/;"	m	struct:huffcodetab
+table-soundq	doc/html/node6.html	/^<DIV ALIGN="CENTER"><A NAME="table-soundq">&#160;<\/A> <A NAME="95">&#160;<\/A> $/;"	a
+table_select	l3side.h	/^	unsigned table_select[3];$/;"	m	struct:__anon21
+table_select	mpglib/mpg123.h	/^      unsigned table_select[3];$/;"	m	struct:gr_info_s
+tabsel_123	mpglib/common.c	/^int tabsel_123[2][3][16] = {$/;"	v
+tagtext	id3tag.h	/^	char tagtext[128];$/;"	m	struct:__anon9
+tail	mpglib/mpglib.h	/^	struct buf *head,*tail;$/;"	m	struct:mpstr	typeref:struct:mpstr::
+tan1_1	mpglib/layer3.c	/^static real tan1_1[16],tan2_1[16],tan1_2[16],tan2_2[16];$/;"	v	file:
+tan1_2	mpglib/layer3.c	/^static real tan1_1[16],tan2_1[16],tan1_2[16],tan2_2[16];$/;"	v	file:
+tan2_1	mpglib/layer3.c	/^static real tan1_1[16],tan2_1[16],tan1_2[16],tan2_2[16];$/;"	v	file:
+tan2_2	mpglib/layer3.c	/^static real tan1_1[16],tan2_1[16],tan1_2[16],tan2_2[16];$/;"	v	file:
+text_window	gtkanal.c	/^static void text_window (GtkWidget *widget, gpointer data)$/;"	f	file:
+tfcos12	mpglib/layer3.c	/^static real tfcos12[3];$/;"	v	file:
+tfcos36	mpglib/layer3.c	/^static real tfcos36[9];$/;"	v	file:
+thm	l3side.h	/^    III_psy_xmin thm;$/;"	m	struct:__anon20
+thr	gtkanal.h	/^  double thr[2][4][SBMAX_l];$/;"	m	struct:__anon7
+thr_s	gtkanal.h	/^  double thr_s[2][4][3*SBMAX_s];$/;"	m	struct:__anon7
+timestamp	rtp.c	/^  int timestamp;	\/* start: random *\/$/;"	m	struct:rtpheader	file:
+timestamp	rtp.h	/^  int timestamp;        \/* start: random *\/$/;"	m	struct:rtpheader
+timestatus	timestatus.c	/^void timestatus(int samp_rate,long frameNum,long totalframes,int framesize)$/;"	f
+title	id3tag.h	/^	char title[31];$/;"	m	struct:__anon9
+toc	VbrTag.h	/^  u_char	toc[NUMTOCENTRIES];	\/* may be NULL if toc not desired*\/$/;"	m	struct:__anon3
+tot_noise	gtkanal.h	/^  double tot_noise[2][2];$/;"	m	struct:__anon7
+totalframes	gtkanal.c	/^  int totalframes;$/;"	m	struct:gtkinfostruct	file:
+totalframes	lame.h	/^  long totalframes;               \/* frames: 0..totalframes-1 (estimate)*\/$/;"	m	struct:__anon8
+totbit	util.h	/^    unsigned long        totbit;         \/* bit counter of bit stream *\/$/;"	m	struct:bit_stream_struc
+totbits	gtkanal.h	/^  int totbits;$/;"	m	struct:__anon7
+totemph	gtkanal.c	/^  int totemph;            \/* total of frames with de-emphasis *\/$/;"	m	struct:gtkinfostruct	file:
+totis	gtkanal.c	/^  int totis;              \/* total frames with i_stereo *\/$/;"	m	struct:gtkinfostruct	file:
+totmix	gtkanal.c	/^  int totmix;             \/* total granules with mixed blocks *\/$/;"	m	struct:gtkinfostruct	file:
+totms	gtkanal.c	/^  int totms;              \/* total frames with ms_stereo *\/$/;"	m	struct:gtkinfostruct	file:
+totshort	gtkanal.c	/^  int totshort;           \/* total granules with short blocks *\/$/;"	m	struct:gtkinfostruct	file:
+track	id3tag.h	/^	unsigned char track;$/;"	m	struct:__anon9
+tryresync	mpglib/mpg123.h	/^	int tryresync;  \/* resync stream after error *\/$/;"	m	struct:parameter
+ts_calc_times	timestatus.c	/^void ts_calc_times(ts_times *time, int samp_rate, long frame, long frames,int framesize)$/;"	f
+ts_process_time	timestatus.c	/^FLOAT ts_process_time(long frame) {$/;"	f
+ts_real_time	timestatus.c	/^FLOAT ts_real_time(long frame) {$/;"	f
+ts_times	timestatus.c	/^typedef struct ts_times {$/;"	s	file:
+ts_times	timestatus.c	/^} ts_times;$/;"	t	typeref:struct:ts_times	file:
+tt	l3side.h	/^			gr_info tt;$/;"	m	struct:__anon22::__anon23::gr_info_ss
+u_char	machine.h	/^	typedef unsigned char	u_char;$/;"	t
+u_int	machine.h	/^	typedef unsigned int	u_int;$/;"	t
+u_long	machine.h	/^	typedef unsigned long	u_long;$/;"	t
+u_short	machine.h	/^	typedef unsigned short	u_short;$/;"	t
+update_progress	gtkanal.c	/^static void update_progress(void)$/;"	f	file:
+use_best_huffman	lame.h	/^  int use_best_huffman;     \/* 0 = no.  1=outside loop  2=inside loop(slow) *\/$/;"	m	struct:__anon8
+used	id3tag.h	/^	int used;$/;"	m	struct:__anon9
+userFrameData	formatBitstream.h	/^    BF_BitstreamPart *userFrameData;$/;"	m	struct:BF_FrameData
+userFrameDataPH	l3bitstream.c	/^BF_PartHolder *userFrameDataPH;$/;"	v
+userSpectrum	formatBitstream.h	/^    BF_BitstreamPart *userSpectrum[MAX_GRANULES][MAX_CHANNELS];$/;"	m	struct:BF_FrameData
+userSpectrumPH	l3bitstream.c	/^BF_PartHolder *userSpectrumPH[ MAX_GRANULES ][ MAX_CHANNELS ];$/;"	v
+v	rtp.c	/^  int v:2;	\/* version: 2 *\/$/;"	m	struct:rtpbits	file:
+v	rtp.h	/^  int v:2;	\/* version: 2 *\/$/;"	m	struct:rtpbits
+valid	id3tag.h	/^	int valid;$/;"	m	struct:__anon9
+value	formatBitstream.h	/^    u_int value;$/;"	m	struct:__anon1
+vbr_scale	VbrTag.h	/^  int		vbr_scale;		\/* encoded vbr scale from Vbr header data*\/$/;"	m	struct:__anon3
+verbose	mpglib/mpg123.h	/^	int verbose;    \/* verbose level *\/$/;"	m	struct:parameter
+version	lame.h	/^  int version;                    \/* 0=MPEG2  1=MPEG1 *\/$/;"	m	struct:__anon8
+wBitrate	Dll/BladeMP3EncDLL.h	/^			WORD	wBitrate;		\/\/ 32, 40, 48, 56, 64, 80, 96, 112, 128, 160, 192, 224, 256 and 320 allowed$/;"	m	struct:__anon11::__anon12::__anon13
+wBitrate	Dll/BladeMP3EncDLL.h	/^			WORD	wBitrate;$/;"	m	struct:__anon11::__anon12::__anon15
+wYear	Dll/BladeMP3EncDLL.h	/^	WORD	wYear;$/;"	m	struct:__anon16
+wave_check	get_audio.c	/^wave_check(char *file_name, fmt_chunk_data *wave_info)$/;"	f	file:
+win	mpglib/layer3.c	/^static real win[4][36];$/;"	v	file:
+win	newmdct.c	/^static FLOAT8 win[4][36];$/;"	v	file:
+win1	mpglib/layer3.c	/^static real win1[4][36];$/;"	v	file:
+winbox	gtkanal.c	/^GtkWidget *winbox;       \/* mpg123 synthesis data plotted here *\/$/;"	v
+window	fft.c	/^static FLOAT window[BLKSIZE \/ 2], window_s[BLKSIZE_s \/ 2];$/;"	v	file:
+window	gtkanal.c	/^GtkWidget *window;$/;"	v
+window_s	fft.c	/^static FLOAT window[BLKSIZE \/ 2], window_s[BLKSIZE_s \/ 2];$/;"	v	file:
+window_subband	newmdct.c	/^static void window_subband(short *xk, FLOAT8 d[SBLIMIT], FLOAT8 *in)$/;"	f	file:
+window_switching_flag	l3side.h	/^	unsigned window_switching_flag;$/;"	m	struct:__anon21
+wordpointer	mpglib/common.c	/^unsigned char *wordpointer;$/;"	v
+work	newmdct.c	130;"	d	file:
+writePartMainData	formatBitstream.c	/^writePartMainData( BF_BitstreamPart *part, BF_FrameResults *results )$/;"	f	file:
+writePartSideInfo	formatBitstream.c	/^writePartSideInfo( BF_BitstreamPart *part, BF_FrameResults *results )$/;"	f	file:
+write_side_info	formatBitstream.c	/^write_side_info(void)$/;"	f	file:
+x	doc/html/switchs.html	/^  <dt><strong>* <kbd>-x<\/kbd><a name="x">&nbsp;&nbsp;&nbsp;&nbsp;swapbytes<\/a><\/strong> $/;"	a
+x	rtp.c	/^  int x:1;	\/* number of extension headers: 0 *\/$/;"	m	struct:rtpbits	file:
+x	rtp.h	/^  int x:1;	\/* number of extension headers: 0 *\/$/;"	m	struct:rtpbits
+xfsf	gtkanal.h	/^  double xfsf[2][2][SBMAX_l];$/;"	m	struct:__anon7
+xfsf_s	gtkanal.h	/^  double xfsf_s[2][2][3*SBMAX_s];$/;"	m	struct:__anon7
+xlen	tables.h	/^  unsigned int xlen; 	\/*max. x-index+			      	*\/ $/;"	m	struct:huffcodetab
+xr	gtkanal.h	/^  double xr[2][2][576];$/;"	m	struct:__anon7
+year	id3tag.h	/^	char year[5];$/;"	m	struct:__anon9
+zHomepage	Dll/BladeMP3EncDLL.h	/^	CHAR	zHomepage[BE_MAX_HOMEPAGE + 1];	$/;"	m	struct:__anon16
